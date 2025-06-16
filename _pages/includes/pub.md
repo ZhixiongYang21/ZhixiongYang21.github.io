@@ -4,23 +4,26 @@
 
 ##  Super-resolution
 
+<hr>
+<dl>
+  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
+</dl>
+
+- `ICLR 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+- `AAAI 2024` [AMD: Autoregressive Motion Diffusion](https://arxiv.org/abs/2305.09381), Bo Han, Hao Peng, Minjing Dong, **Yi Ren**, et al.
+
+
+
 
 <hr>
 <dl>
   <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
-          <dd><a class="publication-title">  ```  SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
-          <dd>    ``` <strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
-          <dd>    International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <dd><a class="publication-title"> - SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
+  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
+  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd> 
 </dl>
 <hr>
-
+<br>
 <hr>
 <dl>
   <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
@@ -32,8 +35,12 @@
 
 ## ISAR Imaging 
 
+<dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/images/DKP.png' alt="sym" width="40%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 [Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://openreview.net/forum?id=7ERQPyR2eb), Zhenhui Ye, Tianyun Zhong, Yi Ren, et al. <span style="color:red">(Spotlight)</span> [**Project**](https://real3dportrait.github.io/) | [**Code**](https://github.com/yerfor/Real3DPortrait)
 </div>
