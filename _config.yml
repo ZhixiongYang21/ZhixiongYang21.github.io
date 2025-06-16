@@ -27,7 +27,7 @@ author:
   location         : "Changsha, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=HsuHMucAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "yzx21@nudt.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -44,8 +44,8 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  dblp             : "https://dblp.org/pid/75/6568-6.html"
-  orcid            : "https://orcid.org/0000-0002-9160-3848"
+  dblp             : "https://dblp.org/pid/154/0174-1.html"
+  orcid            : "https://orcid.org/0000-0002-2667-3903"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
