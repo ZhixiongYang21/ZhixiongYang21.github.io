@@ -99,7 +99,7 @@ Paper and Codes will be released after accept.
  
 <style>
   .custom-hr1 {
-    border: 1px black; /* 增加边框的粗细 */
+    border: 1px solid black; /* 增加边框的粗细 */
     height: 1px;  /* 确保横线的高度不为0 */
     color: black;
   }
