@@ -41,7 +41,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 
 <hr>
 <dl>
-  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DKP.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/Radar.png" alt="Radar" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
