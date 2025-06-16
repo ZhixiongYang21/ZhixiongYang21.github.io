@@ -72,7 +72,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 </dl>
 
 <strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
-Under Review (Trans.PAMI, 2025) <br>
+Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
@@ -84,7 +84,7 @@ Paper and Codes will be released after accept.
 <strong><a class="publication-title">Error-Robust Unsupervised Shadow Removal via Luminance Probability Learning under Mask Misalignment</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
-<br><br><br><br>
+<br><br><br>
 
 <hr>
 <dl>
@@ -94,4 +94,4 @@ Paper and Codes will be released after accept.
 <strong><a class="publication-title">A Learning-aided Plug-and-play Method for Sparse Aperture ISAR Imaging and Autofocusing</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
-<br><br><br><br>
+<br><br><br>
