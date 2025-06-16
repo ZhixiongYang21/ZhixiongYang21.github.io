@@ -6,7 +6,7 @@
 
 <hr>
 <dl>
-  <dt><img align="left" width="400" height="250" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" height="280" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
@@ -64,4 +64,15 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 <br><br><br><br>
 
 
+## ⌛️ In Submission & Preprint
 
+<hr>
+<dl>
+  <dt><img align="left" width="400" height="250" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">A metalearning-based sparse aperture ISAR imaging method</a></strong> <br>
+<strong>Zhixiong Yang</strong>, Jing-Yuan Xia<sup>*</sup>, Junshan Luo, Shuanghui Zhang, Deniz Gündüz <br>
+IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
+[[Paper](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view)], [[Codes](https://github.com/XYLGroup/LAGD)]
+<br><br><br><br>
