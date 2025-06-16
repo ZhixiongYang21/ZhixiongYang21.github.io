@@ -4,7 +4,9 @@
 
 ##  Super-resolution
 
-<hr>
+
+
+<hr class="custom-hr2">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
@@ -14,8 +16,8 @@ Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shen
 IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br>
+<hr class="custom-hr1">
 
-<hr>
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
 </dl>
@@ -26,7 +28,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_A_Dynamic_Kernel_Prior_Model_for_Unsupervised_Blind_Image_Super-Resolution_CVPR_2024_paper.pdf)], [[Codes](https://github.com/XYLGroup/DKP)]
 <br><br>
 
-<hr>
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
 </dl>
@@ -36,10 +38,11 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
 <br><br>
+<hr class="custom-hr2">
 
 ## ISAR Imaging 
 
-<hr>
+<hr class="custom-hr2">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/Radar1.png" alt="Radar" style="margin-right: 30px;"></dt>
 </dl>
@@ -49,10 +52,11 @@ Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shen
 Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br>
+<hr class="custom-hr2">
 
 ## MIMO Beamforming
 
-<hr>
+<hr class="custom-hr2">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
 </dl>
@@ -62,21 +66,22 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 [[Paper](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view)], [[Codes](https://github.com/XYLGroup/LAGD)]
 <br><br><br>
-
+<hr class="custom-hr2">
 
 ## ⌛️ In Submission & Preprint
 
-<hr>
+<hr class="custom-hr2">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
 </dl>
+
 
 <strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
-<hr>
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
 </dl>
@@ -86,7 +91,7 @@ Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
-<hr>
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/LAOF.png" alt="LAOF" style="margin-right: 30px;"></dt>
 </dl>
@@ -95,3 +100,21 @@ Paper and Codes will be released after accept.
 Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
+<hr class="custom-hr2">
+
+ 
+<style>
+  .custom-hr1 {
+    border: 0px #333333; /* 增加边框的粗细 */
+    height: 1px; /* 确保横线的高度不为0 */
+    color: #333333;
+  }
+</style>
+
+<style>
+  .custom-hr2 {
+    border: 0px #333333; /* 增加边框的粗细 */
+    height: 2px; /* 确保横线的高度不为0 */
+    color: #333333;
+  }
+</style>
