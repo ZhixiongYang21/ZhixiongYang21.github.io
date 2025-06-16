@@ -4,8 +4,6 @@
 
 ##  🌟 Super-resolution
 
-
-
 <hr class="custom-hr2">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
@@ -16,7 +14,6 @@ Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shen
 IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br>
-<hr class="custom-hr1">
 
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
@@ -52,7 +49,6 @@ Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shen
 Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br>
-<hr class="custom-hr2">
 
 ## 🌟 MIMO Beamforming
 
@@ -66,7 +62,6 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 [[Paper](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view)], [[Codes](https://github.com/XYLGroup/LAGD)]
 <br><br><br>
-<hr class="custom-hr2">
 
 ## ⌛️ In Submission & Preprint
 
@@ -100,7 +95,6 @@ Paper and Codes will be released after accept.
 Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
-<hr class="custom-hr2">
 
  
 <style>
@@ -113,8 +107,8 @@ Paper and Codes will be released after accept.
 
 <style>
   .custom-hr2 {
-    border: 1px solid black; /* 增加边框的粗细 */
-    height: 2px; /* 确保横线的高度不为0 */
+    border: 1px black; /* 增加边框的粗细 */
+    height: 1px; /* 确保横线的高度不为0 */
     color: black;
   }
 </style>
