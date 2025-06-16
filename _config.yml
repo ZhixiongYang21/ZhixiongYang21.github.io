@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhixiong Yang (杨志雄)"
-description              : "Focusing on video and speech large generation model."
+description              : "Focusing on image restoration."
 repository               : "ZhixiongYang21.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Zhixiong Yang (杨志雄)"
+  name             : "Zhixiong Yang\n(杨志雄)"
   avatar           : "images/ZhixiongYang.jpg"
   bio              : ""
   location         : "Changsha, China"
