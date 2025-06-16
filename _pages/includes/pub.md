@@ -6,7 +6,7 @@
 
 <hr>
 <dl>
-  <dt><img align="left" height="280" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" height="100" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
