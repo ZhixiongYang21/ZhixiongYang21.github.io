@@ -4,22 +4,12 @@
 
 ##  Super-resolution
 
-
-<dl>
-  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="SPMC" style="margin-right: 20px;"></dt>
-  <dd><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></dd>
-  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
-  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
-</dl>
-
-<hr>
-
 <hr>
 <dl>
   <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC" style="margin-right: 20px;"></dt>
 </dl>
 
-- <a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a>
+- <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a><strong>
 - Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li
 - International Conference on Machine Learning  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">(*Highly Cited Paper/Hot Paper*)</span>)
 - [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
