@@ -2,7 +2,7 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  Super-resolution
+##  🌟 Super-resolution
 
 
 
@@ -40,7 +40,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 <br><br>
 <hr class="custom-hr2">
 
-## ISAR Imaging 
+## 🌟 ISAR Imaging 
 
 <hr class="custom-hr2">
 <dl>
@@ -54,7 +54,7 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 <br><br><br>
 <hr class="custom-hr2">
 
-## MIMO Beamforming
+## 🌟 MIMO Beamforming
 
 <hr class="custom-hr2">
 <dl>
