@@ -9,12 +9,12 @@
   <dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
   <dd><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></dd>
   </dd>Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li</dd>
-  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
+  <dd>International Conference on Machine Learning  <strong>(Trans.PAMI)</strong>, 2024 </dd> 
 </dl>
 <hr>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Trans.PAMI</div><img src='images/MLMC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Trans.PAMI</div><img src='../images/MLMC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 `Trans.PAMI 2024` [Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation](https://arxiv.org/pdf/2406.08896),
