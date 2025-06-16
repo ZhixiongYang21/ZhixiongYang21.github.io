@@ -6,7 +6,7 @@
 
 <hr>
 <dl>
-  <dt><img align="left" width="40%" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="400" height="300" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
@@ -17,7 +17,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 <hr>
 <dl>
-  <dt><img align="left" width="40%" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="400" height="300" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
@@ -28,7 +28,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 
 <hr>
 <dl>
-  <dt><img align="left" width="40%" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="400" height="250" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Meta-learning based blind image super-resolution approach to different degradations</a></strong> <br>
@@ -41,7 +41,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 
 <hr>
 <dl>
-  <dt><img align="left" width="40%" src="./_pages/images/DKP.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="400" height="250" src="./_pages/images/DKP.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
