@@ -6,7 +6,7 @@
 
 <hr>
 <dl>
-  <dt><img align="left" width="300" height="200" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="300" height="200" src="./_pages/images/MLMC.png" class="custom-size" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
@@ -17,7 +17,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 <hr>
 <dl>
-  <dt><img align="left" width="300" height="200" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="300" height="200" src="./_pages/images/DKP.png" class="custom-size" alt="DKP" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
