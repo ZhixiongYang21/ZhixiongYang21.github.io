@@ -105,15 +105,15 @@ Paper and Codes will be released after accept.
  
 <style>
   .custom-hr1 {
-    border: 0px #333333; /* 增加边框的粗细 */
-    height: 1px; /* 确保横线的高度不为0 */
+    border: 1px #333333; /* 增加边框的粗细 */
+    height: 1px;  /* 确保横线的高度不为0 */
     color: #333333;
   }
 </style>
 
 <style>
   .custom-hr2 {
-    border: 0px #333333; /* 增加边框的粗细 */
+    border: 1px #333333; /* 增加边框的粗细 */
     height: 2px; /* 确保横线的高度不为0 */
     color: #333333;
   }
