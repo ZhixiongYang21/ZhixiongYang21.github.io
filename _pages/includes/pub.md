@@ -4,52 +4,74 @@
 
 ##  Super-resolution
 
+<hr>
+<dl>
+  <dt><img align="left" width="40%" height="100" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
+Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
+[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
+<br><br><br><br>
 
 <hr>
 <dl>
-  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
-  <dd><a class="publication-title">SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
-  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
-  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
+  <dt><img align="left" width="40%" height="250" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
 </dl>
-<hr>
+
+<strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
+Zhixiong Yang<sup>†</sup>, Jingyuan Xia<sup>†,*</sup>, Shengxi Li, Xinghua Huang, Shuanghui Zhang, Zhen Liu, Yaowen Fu, Yongxiang Liu <br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2024 <br>
+[[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_A_Dynamic_Kernel_Prior_Model_for_Unsupervised_Blind_Image_Super-Resolution_CVPR_2024_paper.pdf)], [[Codes](https://github.com/XYLGroup/DKP)]
+<br><br><br><br>
 
 <hr>
 <dl>
-  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
-  <dd><a class="publication-title">SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
-  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
-  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
+  <dt><img align="left" width="400" height="250" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
 </dl>
-<hr>
+
+<strong><a class="publication-title">Meta-learning based blind image super-resolution approach to different degradations</a></strong> <br>
+<strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Wende Liu, Shuaifeng Zhi, Shuanghui Zhang, Li Liu, Yaowen Fu, Deniz Gündüz <br>
+Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
+[[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
+<br><br><br><br>
 
 ## ISAR Imaging 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/images/DKP.png' alt="sym" width="40%"></div></div>
-<div class='paper-box-text' markdown="1">
+<hr>
+<dl>
+  <dt><img align="left" width="400" height="250" src="./_pages/images/DKP.png" alt="MLMC" style="margin-right: 30px;"></dt>
+</dl>
 
-[Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://openreview.net/forum?id=7ERQPyR2eb), Zhenhui Ye, Tianyun Zhong, Yi Ren, et al. <span style="color:red">(Spotlight)</span> [**Project**](https://real3dportrait.github.io/) | [**Code**](https://github.com/yerfor/Real3DPortrait)
-</div>
-</div>
-
-- `ICLR 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
-- `AAAI 2024` [AMD: Autoregressive Motion Diffusion](https://arxiv.org/abs/2305.09381), Bo Han, Hao Peng, Minjing Dong, **Yi Ren**, et al.
+<strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
+Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
+Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
+[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
+<br><br><br><br>
 
 ## MIMO Beamforming
-- `NeurIPS 2023` [Unsupervised Video Domain Adaptation for Action Recognition: A Disentanglement Perspective](https://openreview.net/forum?id=Rp4PA0ez0m), Pengfei Wei, Lingdong Kong, Xinghua Qu, **Yi Ren**, et al.
-- ``ACM-MM 2022`` [Video-Guided Curriculum Learning for Spoken Video Grounding](), Yan Xia, Zhou Zhao, Shangwei Ye, Yang Zhao, Haoyuan Li, **Yi Ren**
-
 
 <hr>
 <dl>
-  <dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
-  <dd><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></dd>
-  </dd>Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li</dd>
-  <dd>International Conference on Machine Learning  <strong>(Trans.PAMI)</strong>, 2024 </dd> 
+  <dt><img align="left" width="400" height="250" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
 </dl>
+
+<strong><a class="publication-title">A metalearning-based sparse aperture ISAR imaging method</a></strong> <br>
+<strong>Zhixiong Yang</strong>, Jing-Yuan Xia<sup>*</sup>, Junshan Luo, Shuanghui Zhang, Deniz Gündüz <br>
+IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
+[[Paper](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view)], [[Codes](https://github.com/XYLGroup/LAGD)]
+<br><br><br><br>
+
+
+## ⌛️ In Submission & Preprint
+
 <hr>
+<dl>
+  <dt><img align="left" height="250" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
+</dl>
 
-[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
-
-
-
+<strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
+Under Review (Trans.PAMI, 2025) <br>
+Paper and Codes will be released after accept.
+<br><br><br><br>
