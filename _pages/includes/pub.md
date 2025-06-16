@@ -7,7 +7,7 @@
 <hr>
 
 <dl>
-  <dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
+  <dt><img align="left" width="400" src="./images/MLMC.png" alt="MLMC"></dt>
   <dd><a class="publication-title">SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
   <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
   <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
