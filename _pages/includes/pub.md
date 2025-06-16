@@ -4,7 +4,7 @@
 
 ##  🌟 Super-resolution
 
-<hr class="custom-hr2">
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
@@ -25,7 +25,6 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_A_Dynamic_Kernel_Prior_Model_for_Unsupervised_Blind_Image_Super-Resolution_CVPR_2024_paper.pdf)], [[Codes](https://github.com/XYLGroup/DKP)]
 <br><br>
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
 </dl>
@@ -35,11 +34,10 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
 <br><br>
-<hr class="custom-hr2">
 
 ## 🌟 ISAR Imaging 
 
-<hr class="custom-hr2">
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/Radar1.png" alt="Radar" style="margin-right: 30px;"></dt>
 </dl>
@@ -52,7 +50,7 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 
 ## 🌟 MIMO Beamforming
 
-<hr class="custom-hr2">
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
 </dl>
@@ -65,7 +63,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 
 ## ⌛️ In Submission & Preprint
 
-<hr class="custom-hr2">
+<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
 </dl>
@@ -76,7 +74,6 @@ Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
 </dl>
@@ -86,7 +83,6 @@ Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/LAOF.png" alt="LAOF" style="margin-right: 30px;"></dt>
 </dl>
@@ -99,16 +95,9 @@ Paper and Codes will be released after accept.
  
 <style>
   .custom-hr1 {
-    border: 1px solid black; /* 增加边框的粗细 */
-    height: 1px;  /* 确保横线的高度不为0 */
+    border: 1px solid grey; /* 增加边框的粗细 */
+    height: 0px;  /* 确保横线的高度不为0 */
     color: black;
   }
 </style>
 
-<style>
-  .custom-hr2 {
-    border: 1px black; /* 增加边框的粗细 */
-    height: 1px; /* 确保横线的高度不为0 */
-    color: black;
-  }
-</style>
