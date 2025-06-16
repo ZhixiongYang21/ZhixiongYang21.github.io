@@ -4,10 +4,14 @@
 
 ##  Super-resolution
 
-<hr>
 <dl>
-  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="MLMC"></dt>
+  <dt><img align="left" width="400" src="./_pages/images/DKP.png" alt="SPMC"></dt>
+  <dd><a class="publication-title">SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
+  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
+  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
 </dl>
+
+<hr>
 
 - Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation
 - Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li
