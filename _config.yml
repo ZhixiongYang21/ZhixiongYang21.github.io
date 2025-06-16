@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhixiong Yang (杨志雄)"
+title                    : "Zhixiong Yang <br> \n (杨志雄)"
 description              : "Ph.D. Student at NUDT"
 repository               : "ZhixiongYang21.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Zhixiong Yang<br>(杨志雄)"
+  name             : "Zhixiong Yang(杨志雄)"
   avatar           : "images/ZhixiongYang.jpg"
   bio              : ""
   location         : "Changsha, China"
