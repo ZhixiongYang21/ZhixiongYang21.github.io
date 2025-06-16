@@ -4,19 +4,16 @@
 
 ##  Super-resolution
 
+<hr>
 
-<dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
+<dl>
+  <dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
+  <dd><a class="publication-title">SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution</a></dd>
+  <dd><strong>Wenwen He<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Bin Yang*, Shukan Liu, Mang Ye*</dd>
+  <dd>International Conference on Machine Learning  <strong>(ICML)</strong>, 2025</dd>
+</dl>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div>
-<div class='paper-box-text' markdown="1">
-
-Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation,\
-Jingyuan Xia<sup>†</sup>, **Zhixiong Yang**<sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li,\
-IEEE Transactions on Pattern Analysis and Machine Intelligence (**Trans.PAMI**), (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>), 2024\
-[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)].
-</div>
-</div>
-
+<hr>
 
 
 
@@ -46,3 +43,17 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (**Trans.PAMI**),
   <dd>International Conference on Machine Learning  <strong>(Trans.PAMI)</strong>, 2024 </dd> 
 </dl>
 <hr>
+
+
+<dt><img align="left" width="400" src="images/MLMC.png" alt="SPMC"></dt>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div>
+<div class='paper-box-text' markdown="1">
+
+Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation,\
+Jingyuan Xia<sup>†</sup>, **Zhixiong Yang**<sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li,\
+IEEE Transactions on Pattern Analysis and Machine Intelligence (**Trans.PAMI**), (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>), 2024\
+[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)].
+</div>
+</div>
+
