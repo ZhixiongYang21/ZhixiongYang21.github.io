@@ -19,11 +19,11 @@
 <div class="passion-grid">
     <!-- Sports Card -->
     <div class="passion-card">
-      <h3>🏀 Sports</h3>
+      <h3>💦 Sports</h3>
       <ul>
-        <li>Gym workouts 3x/week</li>
-        <li>Basketball/Badminton/Table tennis everyday if time permits</li>
-        <li>Skill exploration: swimming and tennis</li>
+        <li>💪 Gym workouts 3x/week</li>
+        <li>🏀 Basketball/Badminton/Table tennis everyday if time permits</li>
+        <li>🚀 Skill exploration: swimming and tennis</li>
       </ul>
       <em>"Sweat is my reset button."</em></p>
     </div>
@@ -33,9 +33,9 @@
     <div class="passion-card">
       <h3>🎮 Gaming</h3>
       <ul>
-        <li>LOL: ARAM (All Random All Mid) player </li>
-        <li>CSGO: I'm a big Fans of s1mple</li>
-        <li>occasionally Black Myth: Wukong and Delta Force</li>
+        <li>⚔️ LOL: ARAM (All Random All Mid) player </li>
+        <li>🎯 CSGO: I'm a big Fans of s1mple</li>
+        <li>🐒 Occasionally Black Myth: Wukong and Delta Force</li>
       </ul>
       <em>"Games teach resilience."</em></p>
     </div>
@@ -43,11 +43,11 @@
 <div class="passion-grid">
     <!-- Travel Card -->
     <div class="passion-card">
-      <h3>✈️ Wanderlust</h3>
+      <h3>✈️ ️Wanderlust</h3>
       <ul>
-        <li>Road-tripping to unseen destinations</li>
-        <li>Capturing moments through my lens</li>
-        <li>Preferring mountain trails over tourist spots</li>
+        <li>🚗 Road-tripping to unseen destinations</li>
+        <li>📸 Capturing moments through my lens</li>
+        <li>🏕️ Preferring mountain trails over tourist spots</li>
       </ul>
       <em>"I don't collect souvenirs; I collect perspectives."</em></p>
     </div>

@@ -2,7 +2,7 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  🌟 Super-resolution
+##  🖼️ Super-resolution
 
 <hr class="custom-hr1">
 <dl>
@@ -35,7 +35,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
 <br><br>
 
-## 🌟 ISAR Imaging 
+## 📡 ISAR Imaging 
 
 <hr class="custom-hr1">
 <dl>
@@ -48,7 +48,7 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://radars.ac.cn/en/article/doi/10.12000/JR23121)], [[Codes](https://github.com/XYLGroup/LABP)]
 <br><br><br>
 
-## 📚 MIMO Beamforming
+## 📶 MIMO Beamforming
 
 <hr class="custom-hr1">
 <dl>
