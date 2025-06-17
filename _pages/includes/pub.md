@@ -59,7 +59,7 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 <strong>Zhixiong Yang</strong>, Jing-Yuan Xia<sup>*</sup>, Junshan Luo, Shuanghui Zhang, Deniz Gündüz <br>
 IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 [[Paper](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view)], [[Codes](https://github.com/XYLGroup/LAGD)]
-<br><br><br>
+<br><br>
 
 ## ⌛️ In Submission & Preprint
 
