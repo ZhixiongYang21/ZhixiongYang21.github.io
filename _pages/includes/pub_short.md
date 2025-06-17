@@ -9,23 +9,16 @@ My full paper list is shown at [my personal homepage](https://ZhixiongYang21.git
 - `NN 2024` [Meta-learning based blind image super-resolution approach to different degradations](https://www.sciencedirect.com/science/article/pii/S0893608024003538), 
 <strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, et al. [[Codes](https://github.com/XYLGroup/DDSR)]
 
-## 🌟 ISAR Imaging 
+#### 🌟 ISAR Imaging 
 
 - ``雷达学报 2023`` [A metalearning-based sparse aperture ISAR imaging method](https://radars.ac.cn/en/article/doi/10.12000/JR23121), 
 Jingyuan Xia, <strong>Zhixiong Yang<sup>*</sup></strong>, Zhixing Zhou, et al. [[Codes](https://github.com/XYLGroup/LABP)]
 
 
-## 📚 MIMO Beamforming
+#### 📚 MIMO Beamforming
 
 - ``IEEE WCL 2022`` [A learning-aided flexible gradient descent approach to MISO beamforming](https://drive.google.com/file/d/1jc84B9e_aexTxjCQt2TZs2DWtBRANhYT/view), 
 <strong>Zhixiong Yang</strong>, Jing-Yuan Xia<sup>*</sup>, Junshan Luo, et al. [[Codes](https://github.com/XYLGroup/LAGD)]
 
-
-
-#### 🌟 ISAR Imaging 
-
-
-
-#### 📚 MIMO Beamforming
 
 
