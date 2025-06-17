@@ -20,7 +20,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 </dl>
 
 <strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
-Zhixiong Yang<sup>†</sup>, Jingyuan Xia<sup>†,*</sup>, Shengxi Li, Xinghua Huang, Shuanghui Zhang, Zhen Liu, Yaowen Fu, Yongxiang Liu <br>
+<strong>Zhixiong Yang</strong><sup>†</sup>, Jingyuan Xia<sup>†,*</sup>, Shengxi Li, Xinghua Huang, Shuanghui Zhang, Zhen Liu, Yaowen Fu, Yongxiang Liu <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2024 <br>
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_A_Dynamic_Kernel_Prior_Model_for_Unsupervised_Blind_Image_Super-Resolution_CVPR_2024_paper.pdf)], [[Codes](https://github.com/XYLGroup/DKP)]
 <br><br>
