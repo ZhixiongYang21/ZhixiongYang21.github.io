@@ -43,7 +43,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 </dl>
 
 <strong><a class="publication-title">A metalearning-based sparse aperture ISAR imaging method</a></strong> <br>
-Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Zhixing Zhou, Huaizhang Liao, Shuanghui Zhang, Yaowen Fu <br>
+Jingyuan Xia, <strong>Zhixiong Yang<sup>*</sup></strong>, Zhixing Zhou, Huaizhang Liao, Shuanghui Zhang, Yaowen Fu <br>
 Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://radars.ac.cn/en/article/doi/10.12000/JR23121)], [[Codes](https://github.com/XYLGroup/LABP)]
 <br><br><br>
