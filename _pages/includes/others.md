@@ -1,6 +1,6 @@
 
 
-# 🧑 Academic Service
+# 👨‍💻 Academic Service
 - **Reviewer** for CVPR, NeurIPS, ICCV, AAAI, ECCV, AISTATS, ...
 - **Reviewer** for IEEE-(Trans.CSVT, Trans.GRS), ...
 - 第二届空间信息技术大会-优秀学生报告, 2025.05, 成都, [[Link](https://mp.weixin.qq.com/s/xC-WvnnekBTgBUcVa958-g)]
