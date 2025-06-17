@@ -11,8 +11,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
 
-My research focuses on **Image Restoration**, such as super-resolution, deblurring, and radar imaging.
-
 {% include_relative includes/news.md %}
 
 {% include_relative includes/pub.md %}
