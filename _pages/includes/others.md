@@ -25,7 +25,7 @@
         <li>🏀 Basketball/Badminton/Table tennis everyday if time permits</li>
         <li>🚀 Skill exploration: swimming and tennis</li>
       </ul>
-      <em>"Sweat is my reset button."</em></p>
+      <em>"Sweat is my reset button."</em>
     </div>
 </div>
 <div class="passion-grid">
@@ -37,7 +37,7 @@
         <li>🎯 CSGO: I'm a big Fans of s1mple</li>
         <li>🐒 Occasionally Black Myth: Wukong and Delta Force</li>
       </ul>
-      <em>"Games teach resilience."</em></p>
+      <em>"Games teach resilience."</em>
     </div>
 </div>
 <div class="passion-grid">
@@ -49,6 +49,6 @@
         <li>📸 Capturing moments through my lens</li>
         <li>🏕️ Preferring mountain trails over tourist spots</li>
       </ul>
-      <em>"I don't collect souvenirs; I collect perspectives."</em></p>
+      <em>"World-exploration: life's fundamental code."</em>
     </div>
 </div>
