@@ -14,7 +14,7 @@
 - *2014.09 - 2017.06*, No. 1 Middle School affiliated to Central China Normal University.
 
 
-# Beyond Code
+# 💫 Beyond Code
 
 <div class="passion-grid">
     <!-- Sports Card -->
