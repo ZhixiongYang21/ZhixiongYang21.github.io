@@ -35,8 +35,9 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
 <br><br>
 
-- `IEEE GRSL 2025` [SAKE: Unsupervised HSI Super-Resolution via Adaptive Kernel Estimation and Reconstruction](https://ieeexplore.ieee.org/abstract/document/11005589), 
-Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Qiu, Jingyuan Xia<sup>*</sup>. [[Codes](https://github.com/XYLGroup/SAKE)]
+- `IEEE GRSL 2025` <strong><a class="publication-title">SAKE: Unsupervised HSI Super-Resolution via Adaptive Kernel Estimation and Reconstruction</a></strong>, 
+Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Qiu, and Jingyuan Xia<sup>*</sup>. 
+[[Paper](https://ieeexplore.ieee.org/abstract/document/11005589)] [[Codes](https://github.com/XYLGroup/SAKE)]
 
 
 
