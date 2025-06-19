@@ -10,7 +10,7 @@
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
-Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
+Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
 IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br>
@@ -34,6 +34,12 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</
 Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024003538)], [[Codes](https://github.com/XYLGroup/DDSR)]
 <br><br>
+
+- `IEEE GRSL 2025` [SAKE: Unsupervised HSI Super-Resolution via Adaptive Kernel Estimation and Reconstruction](https://ieeexplore.ieee.org/abstract/document/11005589), 
+Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Qiu, Jingyuan Xia<sup>*</sup>. [[Codes](https://github.com/XYLGroup/SAKE)]
+
+
+
 
 ## 📡 ISAR Imaging 
 
