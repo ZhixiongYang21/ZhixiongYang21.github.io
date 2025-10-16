@@ -46,6 +46,17 @@ Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Q
 
 <hr class="custom-hr1">
 <dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAOF.png" alt="Radar" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">A Learning-aided Plug-and-play Method for Sparse Aperture ISAR Imaging and Autofocusing</a></strong> <br>
+<strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu<br>
+IEEE Transactions on Aerospace and Electronic Systems  <strong>(Trans.AES)</strong>, 2025<br>
+[[Paper](https://ieeexplore.ieee.org/document/11202588)], [[Codes](https://github.com/XYLGroup/LABP)]
+<br><br><br>
+
+
+<dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/Radar1.png" alt="Radar" style="margin-right: 30px;"></dt>
 </dl>
 
@@ -79,7 +90,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 <strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
-<br><br>
+<br><br><br>
 
 <dl>
   <dt><img align="left" width="200" height="150" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
@@ -90,14 +101,6 @@ Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
-<dl>
-  <dt><img align="left" width="200" height="150" src="./_pages/images/LAOF.png" alt="LAOF" style="margin-right: 30px;"></dt>
-</dl>
-
-<strong><a class="publication-title">A Learning-aided Plug-and-play Method for Sparse Aperture ISAR Imaging and Autofocusing</a></strong> <br>
-Under Review <br>
-Paper and Codes will be released after accept.
-<br><br><br>
 
  
 <style>
