@@ -1,10 +1,72 @@
 
+<style>
+        /* 自定义水平线样式（保留原有） */
+        .custom-hr1 {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        /* 图片容器：防止放大时溢出错位 */
+        .img-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden; /* 可选：若不想超出容器则添加，想完全放大则删除 */
+            margin-right: 30px;
+            float: left; /* 保持原有左对齐 */
+        }
+
+        /* 图片基础样式 + 过渡动画 */
+        .custom-size {
+            width: 200px;
+            height: 150px;
+            object-fit: cover; /* 保持图片比例，避免拉伸 */
+            transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
+            cursor: pointer; /* 鼠标悬停显示手型 */
+        }
+
+        /* 鼠标悬停放大效果 */
+        .custom-size:hover {
+            transform: scale(1.2); /* 放大1.2倍，可调整为1.1/1.3等 */
+            /* 可选：添加轻微阴影增强视觉效果 */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* 论文标题样式（可选优化） */
+        .publication-title {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .publication-title:hover {
+            text-decoration: underline;
+        }
+</style>
+
+
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
 ##  🖼️ Super-resolution
 
 <hr class="custom-hr1">
+
+
+<dl>
+    <dt>
+        <div class="img-container">        
+            <img class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;">
+        </div>
+    </dt>
+</dl>
+
+<strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
+Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
+[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
+<br><br><br>
+
+
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
 </dl>
