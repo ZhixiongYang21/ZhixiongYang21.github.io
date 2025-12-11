@@ -1,6 +1,6 @@
 
 <style>
-        /* 自定义水平线样式（保留原有） */
+        /* 自定义水平线 */
         .custom-hr1 {
             border: none;
             height: 1px;
@@ -8,32 +8,39 @@
             margin: 20px 0;
         }
 
-        /* 图片容器：防止放大时溢出错位 */
+        /* 论文项布局：替代float，避免错位 */
+        .publication-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        /* 图片容器：基础样式 */
         .img-container {
             position: relative;
-            display: inline-block;
-            overflow: hidden; /* 可选：若不想超出容器则添加，想完全放大则删除 */
             margin-right: 30px;
-            float: left; /* 保持原有左对齐 */
-        }
-
-        /* 图片基础样式 + 过渡动画 */
-        .custom-size {
+            /* 基础展示尺寸（可调整），不固定宽高比 */
             width: 200px;
-            height: 150px;
-            object-fit: cover; /* 保持图片比例，避免拉伸 */
-            transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
-            cursor: pointer; /* 鼠标悬停显示手型 */
+            height: 180px;
+            cursor: pointer;
         }
 
-        /* 鼠标悬停放大效果 */
-        .custom-size:hover {
-            transform: scale(1.2); /* 放大1.2倍，可调整为1.1/1.3等 */
-            /* 可选：添加轻微阴影增强视觉效果 */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        /* 核心：适配不同比例图片，完整显示不裁剪 */
+        .custom-size {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* 替换cover，完整显示图片，留白不裁剪 */
+            background-color: #f5f5f5; /* 留白处背景，更美观 */
+            transition: transform 0.4s ease-in-out; /* 更顺滑的过渡 */
         }
 
-        /* 论文标题样式（可选优化） */
+        /* 悬停放大：调大倍数（1.8倍，可自定义） */
+        .img-container:hover .custom-size {
+            transform: scale(1.8); /* 放大倍数提升，可改2.0=2倍 */
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* 增强阴影，突出放大效果 */
+        }
+
+        /* 论文标题样式 */
         .publication-title {
             color: #0066cc;
             text-decoration: none;
@@ -41,7 +48,29 @@
         .publication-title:hover {
             text-decoration: underline;
         }
-</style>
+
+        /* 全屏查看遮罩层：默认隐藏 */
+        .fullscreen-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            cursor: zoom-out; /* 提示可关闭 */
+        }
+
+        /* 全屏图片样式：自适应屏幕，保持比例 */
+        .fullscreen-img {
+            max-width: 90vw;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+    </style>
 
 
 # 📝 Publications 
