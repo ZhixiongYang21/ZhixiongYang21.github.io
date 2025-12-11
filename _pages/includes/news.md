@@ -1,6 +1,7 @@
 
 # 🔥 News
 
+- *2025.12*: 🎉 Received funding **NSFC Young Students' Basic Research Program!** (国自科青年学生项目).
 - *2025.11*: 🎉 PATK was accepted by **AAAI 2026!**
 - *2025.10*: 🎉 LASQ was accepted by **NeurIPS 2025!**
 - *2025.10*: 🎉 LAOF was accepted by **Trans.AES!**
