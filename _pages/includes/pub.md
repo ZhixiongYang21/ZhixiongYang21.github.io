@@ -13,7 +13,7 @@
             position: relative;
             display: inline-block;
             overflow: hidden; /* 可选：若不想超出容器则添加，想完全放大则删除 */
-            margin-right: 30px;
+            margin-right: 20px;
             float: left; /* 保持原有左对齐 */
         }
 
@@ -28,7 +28,7 @@
 
         /* 鼠标悬停放大效果 */
         .custom-size:hover {
-            transform: scale(1.2); /* 放大1.2倍，可调整为1.1/1.3等 */
+            transform: scale(1.5); /* 放大1.2倍，可调整为1.1/1.3等 */
             /* 可选：添加轻微阴影增强视觉效果 */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
@@ -52,9 +52,9 @@
 
 
 <dl>
-    <dt><div class="img-container">        
-<img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;">
-    </div></dt>
+    <dt>   
+        <img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;">
+    </dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
@@ -65,9 +65,9 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 
 <dl>
-    <dt><div class="img-container">    
-<img align="left" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;">
-    </div></dt>
+    <dt>
+        <img align="left" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;">
+    </dt>
 </dl>
 
 <strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
