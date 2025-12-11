@@ -20,7 +20,7 @@
         /* 图片基础样式 + 过渡动画 */
         .custom-size {
             width: 200px;
-            height: 150px;
+            height: auto;
             object-fit: cover; /* 保持图片比例，避免拉伸 */
             transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
             cursor: pointer; /* 鼠标悬停显示手型 */
