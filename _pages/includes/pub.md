@@ -1,47 +1,5 @@
 
-    <style>
-        /* 自定义水平线样式（保留原有） */
-        .custom-hr1 {
-            border: none;
-            height: 1px;
-            background-color: #ccc;
-            margin: 20px 0;
-        }
 
-        /* 图片容器：防止放大时溢出错位 */
-        .img-container {
-            position: relative;
-            display: inline-block;
-            overflow: hidden; /* 可选：若不想超出容器则添加，想完全放大则删除 */
-            margin-right: 20px;
-            float: left; /* 保持原有左对齐 */
-        }
-
-        /* 图片基础样式 + 过渡动画 */
-        .custom-size {
-            width: 200px;
-            height: auto;
-            object-fit: cover; /* 保持图片比例，避免拉伸 */
-            transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
-            cursor: pointer; /* 鼠标悬停显示手型 */
-        }
-
-        /* 鼠标悬停放大效果 */
-        .custom-size:hover {
-            transform: scale(1.5); /* 放大1.2倍，可调整为1.1/1.3等 */
-            /* 可选：添加轻微阴影增强视觉效果 */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        /* 论文标题样式（可选优化） */
-        .publication-title {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .publication-title:hover {
-            text-decoration: underline;
-        }
-    </style>
 
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
@@ -134,7 +92,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 
 <hr class="custom-hr1">
 <dl>
-  <dt><img align="left" width="200" height="150" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
 </dl>
 
 
@@ -144,7 +102,7 @@ Paper and Codes will be released after accept.
 <br><br><br>
 
 <dl>
-  <dt><img align="left" width="200" height="150" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
 </dl>
 
 <strong><a class="publication-title">Error-Robust Unsupervised Shadow Removal via Luminance Probability Learning under Mask Misalignment</a></strong> <br>
@@ -152,8 +110,50 @@ Under Review <br>
 Paper and Codes will be released after accept.
 <br><br><br>
 
+<style>
+    /* 自定义水平线样式（保留原有） */
+    .custom-hr1 {
+        border: none;
+        height: 1px;
+        background-color: #ccc;
+        margin: 20px 0;
+    }
 
- 
+    /* 图片容器：防止放大时溢出错位 */
+    .img-container {
+        position: relative;
+        display: inline-block;
+        overflow: hidden; /* 可选：若不想超出容器则添加，想完全放大则删除 */
+        margin-right: 20px;
+        float: left; /* 保持原有左对齐 */
+    }
+
+    /* 图片基础样式 + 过渡动画 */
+    .custom-size {
+        width: 200px;
+        height: auto;
+        object-fit: cover; /* 保持图片比例，避免拉伸 */
+        transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
+        cursor: pointer; /* 鼠标悬停显示手型 */
+    }
+
+    /* 鼠标悬停放大效果 */
+    .custom-size:hover {
+        transform: scale(1.5); /* 放大1.2倍，可调整为1.1/1.3等 */
+        /* 可选：添加轻微阴影增强视觉效果 */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* 论文标题样式（可选优化） */
+    .publication-title {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    .publication-title:hover {
+        text-decoration: underline;
+    }
+</style>
+
 <style>
   .custom-hr1 {
     border: 1px solid grey; /* 增加边框的粗细 */
