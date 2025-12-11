@@ -52,11 +52,9 @@
 
 
 <dl>
-    <dt>
-        <div class="img-container">        
+    <dt><div class="img-container">        
 <img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;">
-</div>  
-    </dt>
+    </div></dt>
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
@@ -67,17 +65,9 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 
 <dl>
-  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/MLMC.png" alt="MLMC" style="margin-right: 30px;"></dt>
-</dl>
-
-<strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
-Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
-IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
-[[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
-<br><br><br>
-
-<dl>
-  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;"></dt>
+    <dt><div class="img-container">    
+<img align="left" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;">
+    </div></dt>
 </dl>
 
 <strong><a class="publication-title">A dynamic kernel prior model for unsupervised blind image super-resolution</a></strong> <br>
