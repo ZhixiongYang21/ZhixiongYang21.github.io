@@ -4,9 +4,7 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  🖼️ Super-resolution
-
-<hr class="custom-hr1">
+##  🖼️ Super-resolutionx
 
 
 <dl>
@@ -53,7 +51,6 @@ Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Q
 
 ## 📡 ISAR Imaging 
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAOF.png" alt="Radar" style="margin-right: 30px;"></dt>
 </dl>
@@ -77,7 +74,6 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 
 ## 📶 MIMO Beamforming
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
 </dl>
@@ -90,7 +86,6 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 
 ## ⌛️ In Submission & Preprint
 
-<hr class="custom-hr1">
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
 </dl>
@@ -156,7 +151,7 @@ Paper and Codes will be released after accept.
 
 <style>
   .custom-hr1 {
-    border: 0px solid grey; /* 增加边框的粗细 */
+    border: 1px solid grey; /* 增加边框的粗细 */
     height: 0px;  /* 确保横线的高度不为0 */
     color: black;
   }
