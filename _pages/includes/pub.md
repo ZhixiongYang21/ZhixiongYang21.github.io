@@ -130,7 +130,7 @@ Paper and Codes will be released after accept.
 
     /* 图片基础样式 + 过渡动画 */
     .custom-size {
-        width: 200px;
+        width: 300px;
         height: auto;
         object-fit: cover; /* 保持图片比例，避免拉伸 */
         transition: transform 0.3s ease-in-out; /* 平滑过渡效果 */
@@ -139,7 +139,7 @@ Paper and Codes will be released after accept.
 
     /* 鼠标悬停放大效果 */
     .custom-size:hover {
-        transform: scale(1.5); /* 放大1.2倍，可调整为1.1/1.3等 */
+        transform: scale(1.2); /* 放大1.2倍，可调整为1.1/1.3等 */
         /* 可选：添加轻微阴影增强视觉效果 */
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
