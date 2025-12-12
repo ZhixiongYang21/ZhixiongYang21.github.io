@@ -4,7 +4,7 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  🖼️ Super-resolutionx
+##  🖼️ Image Super-resolution
 
 
 <dl>
