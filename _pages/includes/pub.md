@@ -16,6 +16,7 @@
 IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2026 
 [[Paper](https://ieeexplore.ieee.org/document/11475666)], [[Codes](https://github.com/XYLGroup/BKSR)]
 
+<br>
 
 <dl>
     <dt>   
