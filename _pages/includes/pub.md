@@ -39,7 +39,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 <strong><a class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration</a></strong> <br>
 Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup> <br>
-IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2024 <br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2026 <br>
 [[Paper](https://arxiv.org/pdf/2602.21917v1)], [[Codes](https://github.com/5chen/C2SSM)]
 <br><br><br>
 
