@@ -25,7 +25,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 </dl>
 
 <strong><a class="publication-title">Blind super-resolution via meta-learning and Markov chain Monte Carlo simulation</a></strong> <br>
-Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†,*</sup>, Shengxi Li, Shuanghui Zhang, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
+Jingyuan Xia<sup>†</sup>, <strong>Zhixiong Yang<sup>†,*</sup></strong>, Shengxi Li, Shuanghui Zhang<sup>*</sup>, Yaowen Fu, Deniz Gündüz, Xiang Li <br>
 IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2024 (<span style="color:red">*Highly Cited Paper/Hot Paper*</span>) <br>
 [[Paper](https://arxiv.org/pdf/2406.08896)], [[Codes](https://github.com/XYLGroup/MLMC)]
 <br><br><br><br>
