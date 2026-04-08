@@ -58,6 +58,7 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Qiu, and Jingyuan Xia<sup>*</sup>, IEEE Geoscience and Remote Sensing Letters, 2025.
 [[Paper](https://ieeexplore.ieee.org/abstract/document/11005589)] [[Codes](https://github.com/XYLGroup/SAKE)]
 
+<br>
 
 ##  ✨ Other Low-level Tasks
 
@@ -94,7 +95,7 @@ IEEE Transactions on Aerospace and Electronic Systems  <strong>(Trans.AES)</stro
 Jingyuan Xia, <strong>Zhixiong Yang<sup>*</sup></strong>, Zhixing Zhou, Huaizhang Liao, Shuanghui Zhang, Yaowen Fu <br>
 Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://radars.ac.cn/en/article/doi/10.12000/JR23121)], [[Codes](https://github.com/XYLGroup/LABP)]
-<br><br><br>
+<br><br><br><br>
 
 ## 📶 Other Signal Processing
 
@@ -129,7 +130,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 <strong><a class="publication-title">Error-Robust Unsupervised Shadow Removal via Luminance Probability Learning under Mask Misalignment</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
-<br><br><br>
+<br><br><br><br>
 
 <style>
     /* 自定义水平线样式（保留原有） */
