@@ -71,7 +71,7 @@ Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Q
 Derong Kong<sup>†</sup>, Zhixiong Yang<sup>†</sup>, Shengxi Li, Shuaifeng Zhi, Li Liu, Zhen Liu, Jingyuan Xia<sup>*</sup> <br>
 Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025 <br>
 [[Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118433)], [[Codes](https://github.com/XYLGroup/LASQ)]
-<br>
+<br><br>
 
 
 
