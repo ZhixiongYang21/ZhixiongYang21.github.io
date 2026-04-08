@@ -4,7 +4,7 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  🖼️ Image/HSI Super-resolution
+##  🖼️ Natural Image/HSI Super-resolution
 
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
