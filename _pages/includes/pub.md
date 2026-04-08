@@ -33,6 +33,19 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 
 <dl>
     <dt>
+        <img align="left" class="custom-size" src="./_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM" style="margin-right: 30px;">
+    </dt>
+</dl>
+
+<strong><a class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration</a></strong> <br>
+Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup> <br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2024 <br>
+[[Paper](https://arxiv.org/pdf/2602.21917v1)], [[Codes](https://github.com/5chen/C2SSM)]
+<br><br><br>
+
+
+<dl>
+    <dt>
         <img align="left" class="custom-size" src="./_pages/images/DKP.png" alt="DKP" style="margin-right: 30px;">
     </dt>
 </dl>
@@ -42,6 +55,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.P
 IEEE/CVF Conference on Computer Vision and Pattern Recognition  <strong>(CVPR)</strong>, 2024 <br>
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_A_Dynamic_Kernel_Prior_Model_for_Unsupervised_Blind_Image_Super-Resolution_CVPR_2024_paper.pdf)], [[Codes](https://github.com/XYLGroup/DKP)]
 <br><br><br>
+
 
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/DDSR.png" alt="DDSR" style="margin-right: 30px;"></dt>
