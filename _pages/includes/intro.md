@@ -5,5 +5,5 @@ If you are interested in collaborating with me or want to have a chat, always fe
 [E-mail](yzx21@nudt.edu.cn) or [Wechat](s1mple_21_).
 
 
-My research focuses on Statistical Learning & Optimization on **Image Inverse Problem**, e.g., image super-resolution, HSI super-resolution, and radar imaging.
+My research focuses on Statistical Learning & Optimization on **Image Inverse Problem**, e.g., nature image/HSI super-resolution and radar imaging.
 

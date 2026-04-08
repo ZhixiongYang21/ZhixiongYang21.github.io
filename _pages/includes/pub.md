@@ -11,11 +11,10 @@
 </dl>
 
 
-<strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
+<strong><a class="publication-title">Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
 <strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu<br>
-IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2026 <br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2026 
 [[Paper](https://ieeexplore.ieee.org/document/11475666)], [[Codes](https://github.com/XYLGroup/BKSR)]
-<br><br>
 
 
 <dl>
@@ -70,7 +69,7 @@ Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Q
 Derong Kong<sup>†</sup>, Zhixiong Yang<sup>†</sup>, Shengxi Li, Shuaifeng Zhi, Li Liu, Zhen Liu, Jingyuan Xia<sup>*</sup> <br>
 Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025 <br>
 [[Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118433)], [[Codes](https://github.com/XYLGroup/LASQ)]
-<br><br><br>
+<br>
 
 
 
