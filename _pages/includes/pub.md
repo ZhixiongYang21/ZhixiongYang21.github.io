@@ -4,7 +4,18 @@
 # 📝 Publications 
 &dagger;: equal contribution, * : corresponding author
 
-##  🖼️ Image Super-resolution
+##  🖼️ Image/HSI Super-resolution
+
+<dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
+</dl>
+
+
+<strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
+<strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu<br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2026 <br>
+[[Paper](https://ieeexplore.ieee.org/document/11475666)], [[Codes](https://github.com/XYLGroup/BKSR)]
+<br><br>
 
 
 <dl>
@@ -43,28 +54,19 @@ Elsevier Neural Networks <strong>(NN)</strong>, 2024 <br>
 <br><br><br>
 
 
-🧊 HSI Super-resolution
-
-<dl>
-  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/BKSR.png" alt="BKSR" style="margin-right: 30px;"></dt>
-</dl>
-
-
-<strong><a class="publication-title">BKSR: Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
-<strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu<br>
-IEEE Transactions on Pattern Analysis and Machine Intelligence  <strong>(Trans.PAMI)</strong>, 2026 <br>
-[[Paper](https://ieeexplore.ieee.org/document/11475666)], [[Codes](https://github.com/XYLGroup/BKSR)]
-<br><br>
-
 
 - `IEEE GRSL` <strong><a class="publication-title">SAKE: Unsupervised HSI Super-Resolution via Adaptive Kernel Estimation and Reconstruction</a></strong>, 
 Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Qiu, and Jingyuan Xia<sup>*</sup>, IEEE Geoscience and Remote Sensing Letters, 2025.
 [[Paper](https://ieeexplore.ieee.org/abstract/document/11005589)] [[Codes](https://github.com/XYLGroup/SAKE)]
 
 
+##  ✨ Other Low-level Tasks
 
 
-## 📡 ISAR Imaging 
+
+
+
+## 📡 Radar Imaging 
 
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAOF.png" alt="Radar" style="margin-right: 30px;"></dt>
