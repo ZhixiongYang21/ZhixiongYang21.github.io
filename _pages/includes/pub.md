@@ -62,7 +62,15 @@ Lingyu Zheng<sup>†</sup>, <strong>Zhixiong Yang</strong><sup>†</sup>, Tong Q
 
 ##  ✨ Other Low-level Tasks
 
+<dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/2025-NeurIPS-LASQ.png" alt="LASQ" style="margin-right: 30px;"></dt>
+</dl>
 
+<strong><a class="publication-title">Luminance-Aware Statistical Quantization: Unsupervised Hierarchical Learning for Illumination Enhancement</a></strong> <br>
+Derong Kong<sup>†</sup>, Zhixiong Yang<sup>†</sup>, Shengxi Li, Shuaifeng Zhi, Li Liu, Zhen Liu, Jingyuan Xia<sup>*</sup> <br>
+Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025 <br>
+[[Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118433)], [[Codes](https://github.com/XYLGroup/LASQ)]
+<br><br><br>
 
 
 
@@ -89,7 +97,19 @@ Journal of Radars  <strong>(雷达学报)</strong>, 2023 <br>
 [[Paper](https://radars.ac.cn/en/article/doi/10.12000/JR23121)], [[Codes](https://github.com/XYLGroup/LABP)]
 <br><br><br>
 
-## 📶 MIMO Beamforming
+## 📶 Other Signal Processing
+
+<dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/2026-AAAI-PATK.png" alt="PATK" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">Dynamic Semantic Tokenization for Time Series via Elastic Sampling on Physics-aware Perception</a></strong> <br>
+Huaizhang Liao<sup>†</sup>, <strong>Zhixiong Yang<sup>†</sup></strong>, Jingyuan Xia<sup>*</sup>, Yuheng Sun, Yue Zhang, Shengxi Li, Yongxiang Liu <br>
+The Association for the Advancement of Artificial Intelligence <strong>(AAAI)</strong>, 2026 <br>
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39517/43478)]
+<br><br><br>
+
+
 
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/LAGD.png" alt="LAGD" style="margin-right: 30px;"></dt>
