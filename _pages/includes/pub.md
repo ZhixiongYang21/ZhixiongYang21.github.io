@@ -140,6 +140,16 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 ## ⌛️ In Submission & Preprint
 
 <dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/EMLVNet.png" alt="EMLVNet" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">Error-Robust Unsupervised Shadow Removal via Luminance Probability Learning under Mask Misalignment</a></strong> <br>
+Under Review <br>
+Paper and Codes will be released after accept.
+<br><br><br>
+
+
+<dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/EMSD.png" alt="EMSD" style="margin-right: 30px;"></dt>
 </dl>
 
