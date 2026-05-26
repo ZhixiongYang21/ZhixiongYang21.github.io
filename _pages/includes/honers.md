@@ -1,4 +1,5 @@
 # 🎖 Honors and Awards
+- *2026.04* 博士科研成果服务一线事迹荣登《<strong>解放军报</strong>》[[Link](https://mp.weixin.qq.com/s/UwW-D55cifAa-e0Dl3klJw)]  
 - *2025.10* School Level Outstanding Student (Top 10%) (校级优秀学员)
 - *2024.10* National Scholarship (Ph.D) <strong>(Top 1%) (国家奖学金)</strong>
 - *2023.10* School-level First-Class Scholarship (Ph.D) (Top 10%) (校级一等奖学金)
