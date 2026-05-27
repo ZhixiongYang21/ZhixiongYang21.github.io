@@ -139,6 +139,16 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 
 ## ⌛️ In Submission & Preprint
 
+
+<dl>
+  <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/2026-PAMI-DS3HSR.png" alt="DS3HSR" style="margin-right: 30px;"></dt>
+</dl>
+
+<strong><a class="publication-title">Dynamic Support-Set Evolution for Unsupervised Blind Hyperspectral Image Super-Resolution</a></strong> <br>
+Under Review <br>
+Paper and Codes will be released after accept.
+<br><br><br>
+
 <dl>
   <dt><img align="left" width="200" height="150" class="custom-size" src="./_pages/images/EMLVNet.png" alt="EMLVNet" style="margin-right: 30px;"></dt>
 </dl>
@@ -146,7 +156,7 @@ IEEE Wireless Communications Letters  <strong>(IEEE WCL)</strong>, 2022 <br>
 <strong><a class="publication-title">Statistical Degradation State Modeling for Mask-free Shadow Removal</a></strong> <br>
 Under Review <br>
 Paper and Codes will be released after accept.
-<br><br><br>
+<br><br>
 
 
 <dl>
