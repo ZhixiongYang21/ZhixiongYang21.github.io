@@ -15,6 +15,7 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
+    padding-right: 1.15rem;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -75,7 +76,7 @@
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .author__avatar {
@@ -92,13 +93,13 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 165px;
     min-width: 75px;
-    border-radius: 50%;
+    border-radius: 10px;
 
     @include breakpoint($large) {
-      padding: 5px;
       border: 1px solid $border-color;
+      box-shadow: 0 4px 14px rgba(#000, 0.06);
     }
   }
 }
@@ -109,7 +110,7 @@
   padding-left: 10px;
   min-width: 120px;
   // padding-right: 25px;
-  line-height: 1;
+  line-height: 1.25;
 
   @include breakpoint($large) {
     display: block;
@@ -121,10 +122,14 @@
 
 .author__name {
   margin: 0;
+  color: $darker-gray;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 14px;
+    margin-bottom: 4px;
   }
 }
 
@@ -134,6 +139,13 @@
   }
   font-family: $sans-serif;
   font-size: $type-size-4;
+}
+
+.author__position {
+  margin: 0;
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.45;
 }
 
 .author__bio {
@@ -153,7 +165,7 @@
   z-index: 10;
   position: relative;
   margin-left: auto;
-  cursor: pointer;
+  cursor: default;
 
   li:last-child {
     a {
@@ -163,6 +175,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 1rem;
   }
 
   button {
@@ -193,8 +206,9 @@
     display: block;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 0.85rem 0 0;
     border: 0;
+    border-top: 1px solid $border-color;
     background: transparent;
     box-shadow: none;
   }
@@ -234,20 +248,33 @@
   }
 
   li {
-    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    min-height: 1.8rem;
+    margin-bottom: 0.1rem;
+    color: $gray;
+    white-space: normal;
+
+    > i,
+    a i {
+      width: 1.15rem;
+      margin-right: 0.35rem;
+      color: mix(#fff, $gray, 15%);
+      text-align: center;
+    }
   }
 
   a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.15rem 0;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: inherit;
     text-decoration: none;
 
     &:hover {
+      color: $info-color;
       text-decoration: underline;
     }
   }
