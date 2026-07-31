@@ -1,6 +1,7 @@
 
 # 🔥 News
 
+- *2026.07*: 🎉 TAES paper (LAOF) was selected as **Highly Cited Paper!**
 - *2026.04*: 🎉 BKSR was accepted by **Trans.PAMI!**
 - *2026.02*: 🎉 C2SSM was accepted by **CVPR 2026!**
 - *2025.12*: 🎉 Received funding **Hunan NSFC Young Students' Basic Research Program!** (湖南省自科青年学生项目).

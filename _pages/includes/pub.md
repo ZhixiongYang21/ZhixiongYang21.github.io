@@ -98,7 +98,7 @@ Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 20
 
 <strong><a class="publication-title">A Learning-aided Plug-and-play Method for Sparse Aperture ISAR Imaging and Autofocusing</a></strong> <br>
 <strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu<br>
-IEEE Transactions on Aerospace and Electronic Systems  <strong>(Trans.AES)</strong>, 2025<br>
+IEEE Transactions on Aerospace and Electronic Systems  <strong>(Trans.AES)</strong>, 2025 (<span style="color:red">*Highly Cited Paper*</span>) <br>
 [[Paper](https://ieeexplore.ieee.org/document/11202588)], [[Codes](https://github.com/XYLGroup/LABP)]
 <br><br><br>
 
