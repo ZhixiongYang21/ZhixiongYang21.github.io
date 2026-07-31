@@ -6,19 +6,19 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 14;
+$doc-font-size              : 15;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
-$indent-var                 : 0.5em;
+$indent-var                 : 0.75em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$monospace                  : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -33,24 +33,24 @@ $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.4em;  // ~25.008px
-$type-size-4                : 1.2em;   // ~20px
+$type-size-1                : 2.25em;   // ~36px
+$type-size-2                : 1.8em;    // ~29px
+$type-size-3                : 1.45em;   // ~23px
+$type-size-4                : 1.2em;    // ~19px
 $type-size-5                : 1em;      // ~16px
-$type-size-6                : 1em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-6                : 0.875em;  // ~14px
+$type-size-7                : 0.75em;   // ~12px
+$type-size-8                : 0.6875em; // ~11px
 
 
 /*
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
+$gray                       : #667085;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
@@ -60,14 +60,14 @@ $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : #343a40;
+$border-color               : #e9ecef;
 
-$primary-color              : #7a8288;
+$primary-color              : #667085;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #224b8d;
+$info-color                 : #315b7d;
 // $info-color                 : #52adc8;
 
 /* brands */
