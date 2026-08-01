@@ -7,24 +7,13 @@
   padding: 0.35rem 0 0.8rem;
 }
 
-.intro-kicker {
-  margin: 0 0 0.35rem !important;
-  color: $info-color;
-  font-size: 0.76rem !important;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.page__content .intro-title {
-  max-width: 44rem;
-  margin: 0 0 1.1rem;
-  padding: 0;
-  border-bottom: 0;
+.page__content .intro-heading {
+  margin: 0 0 1rem;
+  padding-bottom: 0.45em;
+  border-bottom: 1px solid $border-color;
   color: $darker-gray;
-  font-size: 1.65rem;
+  font-size: $type-size-3;
   font-weight: 600;
-  line-height: 1.32;
 }
 
 .intro-summary {
@@ -34,60 +23,8 @@
   line-height: 1.68;
 }
 
-.research-topics {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem 0;
-  margin: 1rem 0 0;
-  padding: 0;
-  color: $gray;
-  list-style: none;
-
-  li {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.88rem !important;
-    font-weight: 500;
-
-    &:not(:last-child)::after {
-      content: "·";
-      margin: 0 0.65rem;
-      color: mix(#fff, $gray, 35%);
-    }
-  }
-}
-
-.intro-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  margin-top: 1rem;
-
-  a {
-    color: $info-color;
-    font-size: 0.88rem;
-    font-weight: 600;
-    text-decoration: none;
-
-    &::after {
-      content: " ↗";
-      font-size: 0.78em;
-    }
-
-    &:first-child::after {
-      content: "";
-    }
-
-    &:hover {
-      color: $link-color-hover;
-      text-decoration: underline;
-      text-underline-offset: 0.18em;
-    }
-  }
-}
-
 .intro-contact {
-  margin: 1rem 0 0 !important;
+  margin: 0.95rem 0 0 !important;
   color: $gray;
   font-size: 0.86rem !important;
   line-height: 1.55;
@@ -95,31 +32,5 @@
   span {
     color: $darker-gray;
     font-weight: 500;
-  }
-}
-
-@include breakpoint(max-width $small) {
-  .page__content .intro-title {
-    font-size: 1.4rem;
-  }
-
-  .research-topics {
-    display: block;
-
-    li {
-      display: block;
-      margin-bottom: 0.25rem;
-
-      &::before {
-        content: "—";
-        margin-right: 0.45rem;
-        color: mix(#fff, $gray, 35%);
-      }
-
-      &:not(:last-child)::after {
-        content: "";
-        margin: 0;
-      }
-    }
   }
 }

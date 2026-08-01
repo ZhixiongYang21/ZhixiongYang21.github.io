@@ -166,6 +166,10 @@
   }
 }
 
+.profile-section--personal {
+  padding-bottom: 4rem;
+}
+
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -306,6 +310,10 @@
 }
 
 @include breakpoint(max-width $small) {
+  .profile-section--personal {
+    padding-bottom: 3rem;
+  }
+
   .personal-heading {
     display: block;
 
