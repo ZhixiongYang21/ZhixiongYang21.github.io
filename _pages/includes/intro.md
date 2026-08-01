@@ -1,9 +1,33 @@
-Hi there! This is Zhixiong Yang (杨志雄), I am a Ph.D. student at School of Electronic Science, [National University of Defense Technology](https://www.nudt.edu.cn/),
-advised by Prof. [Jingyuan Xia](https://www.xiajingyuan.com/) and Prof. Yaowen Fu. 
-Previously, I received my bachelor degree from the [Northeastern University](https://www.neu.edu.cn/) in 2021.
-If you are interested in collaborating with me or want to have a chat, always feel free to contact me through 
-[E-mail](yzx21@nudt.edu.cn) or [Wechat](s1mple_21_).
+<section class="intro-block" aria-labelledby="intro-heading">
+  <p class="intro-kicker">About Me</p>
+  <h1 class="intro-title" id="intro-heading">Learning and optimization for image inverse problems.</h1>
 
+  <p class="intro-summary">
+    I am <strong>Zhixiong Yang (杨志雄)</strong>, a Ph.D. student at the School of Electronic Science,
+    <a href="https://www.nudt.edu.cn/">National University of Defense Technology</a>, advised by
+    Prof. <a href="https://www.xiajingyuan.com/">Jingyuan Xia</a> and Prof. Yaowen Fu.
+    Previously, I received my bachelor's degree from
+    <a href="https://www.neu.edu.cn/">Northeastern University</a> in 2021.
+  </p>
 
-My research focuses on Statistical Learning & Optimization on **Image Inverse Problem**, e.g., nature image/HSI super-resolution and radar imaging.
+  <p class="intro-summary">
+    My research focuses on statistical learning and optimization for image inverse problems,
+    including natural image and hyperspectral image super-resolution, image restoration, and radar imaging.
+  </p>
 
+  <ul class="research-topics" aria-label="Research interests">
+    <li>Statistical Learning</li>
+    <li>Image Inverse Problems</li>
+    <li>Super-Resolution</li>
+    <li>Radar Imaging</li>
+  </ul>
+
+  <nav class="intro-actions" aria-label="Academic profile links">
+    <a href="mailto:{{ site.author.email }}">Email</a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    <a href="{{ site.author.dblp }}">DBLP</a>
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+  </nav>
+
+  <p class="intro-contact">I am always happy to discuss research and potential collaborations. You can also reach me on WeChat: <span>s1mple_21_</span>.</p>
+</section>

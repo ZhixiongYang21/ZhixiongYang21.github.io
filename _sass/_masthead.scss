@@ -45,10 +45,7 @@
 }
 
 .masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
+  display: block !important;
 }
 
 .masthead__menu-item {
@@ -61,4 +58,3 @@
     font-weight: 700;
   }
 }
-

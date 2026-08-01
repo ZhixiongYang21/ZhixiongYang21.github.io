@@ -257,10 +257,16 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
+      &:hover:before,
+      &.is-active:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
+      }
+
+      &.is-active {
+        color: $darker-gray;
+        font-weight: 600;
       }
     }
   }
@@ -284,6 +290,12 @@
       &:hover {
         color: $masthead-link-color-hover;
         background: mix(#fff, $primary-color, 75%);
+      }
+
+      &.is-active {
+        color: $darker-gray;
+        background: mix(#fff, $info-color, 92%);
+        font-weight: 600;
       }
     }
 

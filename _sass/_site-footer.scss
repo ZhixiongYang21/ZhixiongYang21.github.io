@@ -1,0 +1,37 @@
+/* ========================================================================== 
+   SITE FOOTER
+   ========================================================================== */
+
+.page__footer {
+  border-top: 1px solid $border-color;
+  background: #fff;
+  color: $gray;
+  animation: none;
+
+  .site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.15rem 1.25rem;
+
+    p {
+      margin: 0;
+      font-size: 0.76rem;
+      line-height: 1.45;
+    }
+  }
+}
+
+.site-footer__meta {
+  color: mix(#fff, $gray, 18%);
+}
+
+@include breakpoint(max-width $small) {
+  .page__footer .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
