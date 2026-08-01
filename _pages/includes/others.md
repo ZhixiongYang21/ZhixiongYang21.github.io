@@ -1,5 +1,5 @@
 <span class="anchor" id="-academic-service"></span>
-<section class="profile-section" aria-labelledby="service-heading">
+<section class="profile-section profile-section--service" aria-labelledby="service-heading">
   <h1 id="service-heading">Academic Service</h1>
 
   <dl class="service-review-list">
@@ -14,7 +14,7 @@
   </dl>
 
   <h2 class="profile-subheading">Selected Activities</h2>
-  <ul class="record-list">
+  <ul class="record-list record-list--activities">
     <li class="record-item">
       <time class="record-date" datetime="2025-05">2025.05</time>
       <div class="record-content">第二届空间信息技术大会 · 优秀学生报告 · 成都<a class="record-link" href="https://mp.weixin.qq.com/s/xC-WvnnekBTgBUcVa958-g">Details</a></div>
@@ -31,7 +31,7 @@
 </section>
 
 <span class="anchor" id="-educations"></span>
-<section class="profile-section" aria-labelledby="education-heading">
+<section class="profile-section profile-section--education" aria-labelledby="education-heading">
   <h1 id="education-heading">Education</h1>
 
   <ol class="education-list">
@@ -59,19 +59,29 @@
     <li class="education-item">
       <div class="education-period">2014.09 — 2017.06</div>
       <div class="education-content">
-        <strong class="education-degree">No. 1 Middle School affiliated to Central China Normal University</strong>
+        <strong class="education-degree">High School</strong>
+        <span class="education-school">No. 1 Middle School affiliated to Central China Normal University</span>
       </div>
     </li>
   </ol>
 </section>
 
 <span class="anchor" id="-beyond-code"></span>
-<section class="profile-section" aria-labelledby="beyond-code-heading">
-  <h1 id="beyond-code-heading">Beyond Code</h1>
+<section class="profile-section profile-section--personal" aria-labelledby="beyond-code-heading">
+  <div class="personal-heading">
+    <h1 id="beyond-code-heading">Beyond Code</h1>
+    <p>A few things that keep me curious, competitive, and recharged.</p>
+  </div>
 
   <div class="interests-grid">
-    <article class="interest-item">
-      <h2 class="interest-title">Sports</h2>
+    <article class="interest-item interest-item--sports">
+      <header class="interest-header">
+        <span class="interest-icon" aria-hidden="true">🏀</span>
+        <div>
+          <h2 class="interest-title">Sports</h2>
+          <p class="interest-kicker">Move, reset, repeat</p>
+        </div>
+      </header>
       <ul>
         <li>Gym workouts three times a week</li>
         <li>Basketball, badminton, and table tennis whenever time permits</li>
@@ -80,8 +90,14 @@
       <p class="interest-note">“Sweat is my reset button.”</p>
     </article>
 
-    <article class="interest-item">
-      <h2 class="interest-title">Gaming</h2>
+    <article class="interest-item interest-item--gaming">
+      <header class="interest-header">
+        <span class="interest-icon" aria-hidden="true">🎮</span>
+        <div>
+          <h2 class="interest-title">Gaming</h2>
+          <p class="interest-kicker">Strategy meets reflex</p>
+        </div>
+      </header>
       <ul>
         <li>League of Legends: ARAM player</li>
         <li>CS:GO and a big fan of s1mple</li>
@@ -90,8 +106,14 @@
       <p class="interest-note">“Games teach resilience.”</p>
     </article>
 
-    <article class="interest-item">
-      <h2 class="interest-title">Wanderlust</h2>
+    <article class="interest-item interest-item--travel">
+      <header class="interest-header">
+        <span class="interest-icon" aria-hidden="true">🧭</span>
+        <div>
+          <h2 class="interest-title">Wanderlust</h2>
+          <p class="interest-kicker">Mountains over crowds</p>
+        </div>
+      </header>
       <ul>
         <li>Road-tripping to unseen destinations</li>
         <li>Capturing moments through my lens</li>

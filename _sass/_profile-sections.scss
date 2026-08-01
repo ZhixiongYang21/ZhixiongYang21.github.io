@@ -138,20 +138,49 @@
   line-height: 1.5;
 }
 
+.personal-heading {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid $border-color;
+
+  h1 {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  > p {
+    max-width: 28rem;
+    margin: 0 0 0.7rem !important;
+    color: $gray;
+    font-size: 0.9rem !important;
+    line-height: 1.45;
+    text-align: right;
+  }
+}
+
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
-  margin-top: 0.2rem;
+  gap: 1rem;
+  margin-top: 1.15rem;
 }
 
 .interest-item {
+  --interest-accent: #4d7293;
+
   min-width: 0;
-  padding-top: 0.9rem;
-  border-top: 2px solid mix(#fff, $info-color, 72%);
+  padding: 1.05rem 1rem 0.95rem;
+  border: 1px solid $border-color;
+  border-top: 3px solid var(--interest-accent);
+  border-radius: 7px;
+  background: #fbfcfd;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 
   ul {
-    margin: 0;
+    margin: 0.9rem 0 0;
     padding-left: 1.05rem;
   }
 
@@ -160,13 +189,49 @@
     color: $darker-gray;
     line-height: 1.5;
   }
+
+}
+
+.interest-item--gaming {
+  --interest-accent: #7b668e;
+}
+
+.interest-item--travel {
+  --interest-accent: #73856b;
+}
+
+.interest-header {
+  display: flex;
+  gap: 0.72rem;
+  align-items: center;
+}
+
+.interest-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  background: rgba(#315b7d, 0.07);
+  font-size: 1.18rem;
+  line-height: 1;
 }
 
 .interest-title {
-  margin: 0 0 0.65rem;
+  margin: 0;
   color: $darker-gray;
   font-size: 1.02rem;
   font-weight: 600;
+}
+
+.interest-kicker {
+  margin: 0.08rem 0 0 !important;
+  color: $gray;
+  font-size: 0.78rem !important;
+  letter-spacing: 0.015em;
+  line-height: 1.35;
 }
 
 .interest-note {
@@ -177,6 +242,74 @@
   line-height: 1.45;
 }
 
+@include breakpoint($large) {
+  .record-list--honors {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+
+    .record-item {
+      grid-template-columns: 4.8rem minmax(0, 1fr);
+      border-top: 1px solid $border-color;
+      border-bottom: 0;
+    }
+
+    .record-item:first-child {
+      grid-column: 1 / -1;
+      grid-template-columns: 5.25rem minmax(0, 1fr);
+    }
+
+    .record-detail {
+      display: block;
+      margin: 0.12rem 0 0;
+    }
+  }
+
+  .service-review-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    border-top: 0;
+  }
+
+  .service-review-row {
+    display: block;
+    padding: 0.75rem 0 0;
+    border-top: 2px solid mix(#fff, $info-color, 72%);
+    border-bottom: 0;
+
+    dt {
+      margin-bottom: 0.35rem;
+    }
+  }
+}
+
+@include breakpoint($medium) {
+  .education-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 2rem;
+  }
+
+  .education-item {
+    display: block;
+    padding-top: 0.75rem;
+    border-top: 2px solid mix(#fff, $info-color, 78%);
+    border-bottom: 0;
+  }
+
+  .education-period {
+    margin-bottom: 0.35rem;
+  }
+}
+
+@include breakpoint($x-large) {
+  .education-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
 @include breakpoint(max-width $medium) {
   .interests-grid {
     grid-template-columns: 1fr;
@@ -185,6 +318,15 @@
 }
 
 @include breakpoint(max-width $small) {
+  .personal-heading {
+    display: block;
+
+    > p {
+      margin: 0.35rem 0 0.7rem !important;
+      text-align: left;
+    }
+  }
+
   .record-item {
     grid-template-columns: 4.6rem minmax(0, 1fr);
     column-gap: 0.75rem;
@@ -203,5 +345,23 @@
 
   .education-period {
     white-space: normal;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .interest-item:hover {
+    border-color: mix(#fff, $gray, 65%);
+    box-shadow: 0 8px 22px rgba(#18212b, 0.07);
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interest-item {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 }

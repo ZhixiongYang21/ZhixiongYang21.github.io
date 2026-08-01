@@ -1,5 +1,5 @@
 <span class="anchor" id="-honors-and-awards"></span>
-<section class="profile-section" aria-labelledby="honors-heading">
+<section class="profile-section profile-section--honors" aria-labelledby="honors-heading">
   <h1 id="honors-heading">Honors and Awards</h1>
 
   <ul class="record-list record-list--honors">
