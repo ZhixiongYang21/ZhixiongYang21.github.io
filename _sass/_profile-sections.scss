@@ -85,13 +85,17 @@
   border-bottom: 1px solid $border-color;
 
   dt {
+    margin: 0;
     color: $gray;
+    font-size: 0.94rem;
     font-weight: 600;
+    line-height: 1.45;
   }
 
   dd {
     margin: 0;
     color: $darker-gray;
+    font-size: 1rem;
     line-height: 1.55;
   }
 }
@@ -269,17 +273,21 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
+    align-items: stretch;
     border-top: 0;
   }
 
   .service-review-row {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-content: start;
     padding: 0.75rem 0 0;
     border-top: 2px solid mix(#fff, $info-color, 72%);
     border-bottom: 0;
 
     dt {
-      margin-bottom: 0.35rem;
+      margin: 0 0 0.35rem;
     }
   }
 }
