@@ -1,0 +1,207 @@
+/* ========================================================================== 
+   PROFILE SECTIONS
+   ========================================================================== */
+
+.record-list,
+.education-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.record-item {
+  display: grid;
+  grid-template-columns: 5.25rem minmax(0, 1fr);
+  column-gap: 1rem;
+  align-items: baseline;
+  margin: 0;
+  padding: 0.68rem 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.record-date,
+.education-period {
+  color: $gray;
+  font-size: 0.94rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.record-content {
+  min-width: 0;
+  color: $darker-gray;
+  line-height: 1.55;
+}
+
+.record-detail {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: $gray;
+  font-size: 0.92em;
+  font-weight: 500;
+}
+
+.record-content strong.record-detail {
+  color: $darker-gray;
+  font-weight: 600;
+}
+
+.record-link {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: $info-color;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  white-space: nowrap;
+
+  &::after {
+    content: " ↗";
+    font-size: 0.82em;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline !important;
+  }
+}
+
+.service-review-list {
+  margin: 0.15rem 0 1.5rem;
+  border-top: 1px solid $border-color;
+}
+
+.service-review-row {
+  display: grid;
+  grid-template-columns: 7.25rem minmax(0, 1fr);
+  column-gap: 1rem;
+  padding: 0.72rem 0;
+  border-bottom: 1px solid $border-color;
+
+  dt {
+    color: $gray;
+    font-weight: 600;
+  }
+
+  dd {
+    margin: 0;
+    color: $darker-gray;
+    line-height: 1.55;
+  }
+}
+
+.profile-subheading {
+  margin: 1.5rem 0 0.35rem;
+  color: $darker-gray;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 9.75rem minmax(0, 1fr);
+  column-gap: 1.25rem;
+  margin: 0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.education-content {
+  min-width: 0;
+}
+
+.education-degree,
+.education-school {
+  display: block;
+}
+
+.education-degree {
+  color: $darker-gray;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.education-school {
+  margin-top: 0.12rem;
+  color: $gray;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.interest-item {
+  min-width: 0;
+  padding-top: 0.9rem;
+  border-top: 2px solid mix(#fff, $info-color, 72%);
+
+  ul {
+    margin: 0;
+    padding-left: 1.05rem;
+  }
+
+  li {
+    margin-bottom: 0.35rem;
+    color: $darker-gray;
+    line-height: 1.5;
+  }
+}
+
+.interest-title {
+  margin: 0 0 0.65rem;
+  color: $darker-gray;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.interest-note {
+  margin: 0.8rem 0 0 !important;
+  color: $gray;
+  font-size: 0.88rem !important;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+@include breakpoint(max-width $medium) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .record-item {
+    grid-template-columns: 4.6rem minmax(0, 1fr);
+    column-gap: 0.75rem;
+  }
+
+  .record-date,
+  .education-period {
+    font-size: 0.9rem;
+  }
+
+  .service-review-row,
+  .education-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
+
+  .education-period {
+    white-space: normal;
+  }
+}

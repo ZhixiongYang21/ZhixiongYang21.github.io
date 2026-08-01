@@ -1,3 +1,4 @@
+<span class="anchor" id="-news"></span>
 <section class="news-section" aria-labelledby="news-heading">
   <h1 id="news-heading">News</h1>
 
