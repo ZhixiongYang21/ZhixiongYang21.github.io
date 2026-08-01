@@ -2,11 +2,14 @@
    SITE FOOTER
    ========================================================================== */
 
-.page__footer {
+.site-footer-shell {
+  position: static;
+  clear: both;
+  width: 100%;
+  margin-top: 0;
   border-top: 1px solid $border-color;
   background: #fff;
   color: $gray;
-  animation: none;
 
   .site-footer {
     display: flex;
@@ -29,7 +32,7 @@
 }
 
 @include breakpoint(max-width $small) {
-  .page__footer .site-footer {
+  .site-footer-shell .site-footer {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.2rem;
