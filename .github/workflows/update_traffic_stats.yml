@@ -1,0 +1,66 @@
+name: Update Traffic Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-traffic-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+      GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+      GA4_START_DATE: ${{ vars.GA4_START_DATE }}
+
+    steps:
+      - name: Check configuration
+        id: configuration
+        shell: bash
+        run: |
+          if [[ -n "$GA4_PROPERTY_ID" && -n "$GA4_SERVICE_ACCOUNT_JSON" ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Traffic stats are not configured yet. Add GA4_PROPERTY_ID and GA4_SERVICE_ACCOUNT_JSON."
+          fi
+
+      - name: Check out the website
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.configuration.outputs.ready == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Google Analytics client
+        if: steps.configuration.outputs.ready == 'true'
+        run: python -m pip install "google-analytics-data>=0.18,<0.19"
+
+      - name: Fetch traffic statistics
+        if: steps.configuration.outputs.ready == 'true'
+        run: python .github/scripts/update_traffic_stats.py --output traffic-output/traffic.json
+
+      - name: Publish the statistics branch
+        if: steps.configuration.outputs.ready == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd traffic-output
+          git init
+          git checkout -b traffic-stats
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic.json
+          git commit -m "Update traffic stats"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:traffic-stats

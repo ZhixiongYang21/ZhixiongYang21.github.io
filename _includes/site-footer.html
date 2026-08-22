@@ -1,6 +1,15 @@
 <div class="site-footer-shell">
   <footer class="site-footer" role="contentinfo">
-    <p>&copy; {{ site.time | date: '%Y' }} Zhixiong Yang</p>
+    <p class="site-footer__copyright">&copy; {{ site.time | date: '%Y' }} Zhixiong Yang</p>
+    <p class="site-footer__traffic"
+       data-traffic-stats
+       data-source="{{ site.traffic_stats_url | escape }}"
+       aria-live="polite"
+       hidden>
+      <span>Total views <strong data-traffic-total></strong></span>
+      <span class="site-footer__separator" aria-hidden="true">&middot;</span>
+      <span>Today <strong data-traffic-today></strong></span>
+    </p>
     <p class="site-footer__meta">Last updated {{ site.time | date: '%B %Y' }}</p>
   </footer>
 </div>
