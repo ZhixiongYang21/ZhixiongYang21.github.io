@@ -83,7 +83,7 @@
     </div>
     <div class="publication-body">
       <h3 class="publication-title">Spectrally-Spatially Coupled Dynamic Reduction for Efficient Hyperspectral Image Super-Resolution</h3>
-      <p class="publication-authors">Lingyu Zheng<sup>&dagger;</sup>, Jingyuan Xia<sup>&dagger;</sup>, <strong>Zhixiong Yang<sup>&dagger;</sup></strong>, Chen Wu, Shengxi Li, Xin Deng, Mai Xu</p>
+      <p class="publication-authors">Lingyu Zheng<sup>&dagger;</sup>, Jingyuan Xia<sup>&dagger;</sup>, <strong>Zhixiong Yang<sup>&dagger;</sup></strong>, Chen Wu, Shengxi Li, Xin Deng, Mai Xu<sup>*</sup></p>
       <p class="publication-venue">IEEE Transactions on Geoscience and Remote Sensing <strong class="publication-venue-code">(IEEE TGRS)</strong>, 2026</p>
       <div class="publication-links">
         <a href="https://doi.org/10.1109/TGRS.2026.3688486">Paper</a>
@@ -113,23 +113,6 @@
 
   <article class="publication-item">
     <div class="publication-media">
-      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
-        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
-      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
-      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
-        <a href="https://github.com/5chen/C2SSM">Code</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-media">
       <a href="/_pages/images/2025-NeurIPS-LASQ.png" aria-label="View full-size LASQ figure">
         <img src="/_pages/images/2025-NeurIPS-LASQ.png" alt="LASQ method overview" loading="lazy">
       </a>
@@ -141,6 +124,23 @@
       <div class="publication-links">
         <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118433">Paper</a>
         <a href="https://github.com/XYLGroup/LASQ">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
+        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy">
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
+      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
+      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
+        <a href="https://github.com/5chen/C2SSM">Code</a>
       </div>
     </div>
   </article>

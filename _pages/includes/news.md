@@ -12,6 +12,10 @@
       <span class="news-text">BKSR was accepted by <strong>Trans.PAMI!</strong></span>
     </li>
     <li class="news-item">
+      <time class="news-date" datetime="2026-04">2026.04</time>
+      <span class="news-text">S2CD-Net was accepted by <strong>IEEE TGRS!</strong></span>
+    </li>
+    <li class="news-item">
       <time class="news-date" datetime="2026-02">2026.02</time>
       <span class="news-text">C2SSM was accepted by <strong>CVPR 2026!</strong></span>
     </li>
