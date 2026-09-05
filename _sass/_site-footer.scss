@@ -13,17 +13,18 @@
 
   .site-footer {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-    column-gap: 1.25rem;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.75rem 1.5rem;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.15rem 1.25rem;
+    padding: 1.4rem 1.25rem 1.65rem;
+    font-family: inherit;
 
     p {
       margin: 0;
-      font-size: 0.76rem;
-      line-height: 1.45;
+      font-size: 0.875rem;
+      line-height: 1.65;
     }
   }
 }
@@ -34,50 +35,50 @@
 }
 
 .site-footer__traffic {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-column: 2;
-  gap: 0.25rem;
-  justify-items: center;
+  gap: 0.2rem 0.65rem;
+  align-items: baseline;
+  justify-content: center;
   justify-self: center;
   min-width: 0;
   max-width: 100%;
   color: $gray;
-}
 
-.site-footer__traffic-info {
-  color: inherit;
-  font-size: 0.76rem;
-  line-height: 1.45;
+  > span {
+    white-space: nowrap;
+  }
 
-  &:hover,
-  &:focus-visible {
-    color: $darker-gray;
-    text-decoration: underline;
+  strong {
+    margin-left: 0.2em;
+    color: $text-color;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
   }
 }
 
-#histats_counter {
-  // Reserve space while the asynchronous counter loads, without fixing the footer.
-  min-height: 25px;
-  max-width: 100%;
+.site-footer__separator {
+  color: $light-gray;
+}
 
-  img,
-  iframe {
-    max-width: 100%;
-    vertical-align: middle;
-  }
+.site-footer__tracking-source {
+  // Keep the original tracker intact, but do not display its canvas counter.
+  display: none !important;
 }
 
 .site-footer__meta {
   grid-column: 3;
   justify-self: end;
-  color: mix(#fff, $gray, 18%);
+  color: $gray;
 }
 
 @include breakpoint(max-width 800px) {
   .site-footer-shell .site-footer {
     grid-template-columns: 1fr;
-    row-gap: 0.65rem;
+    row-gap: 0.45rem;
     padding-inline: 1rem;
   }
 
@@ -89,6 +90,6 @@
   }
 
   .site-footer__traffic {
-    justify-items: start;
+    justify-content: flex-start;
   }
 }

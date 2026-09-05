@@ -2,13 +2,18 @@
   <footer class="site-footer" role="contentinfo">
     <p class="site-footer__copyright">&copy; {{ site.time | date: '%Y' }} Zhixiong Yang</p>
     {% if site.histats_enabled and jekyll.environment == 'production' and page.analytics != false %}
-    <div class="site-footer__traffic" role="group" aria-label="Today's visitors and total visitors">
-      {% include histats-counter.html %}
-      <a class="site-footer__traffic-info" href="https://www.histats.com/?act=5"
-         target="_blank" rel="noopener noreferrer"
-         title="Visitor counts are measured by Histats. Read its privacy policy.">Visitor statistics by Histats</a>
-    </div>
+    <p class="site-footer__traffic" data-visitor-stats data-histats-site-id="5049707"
+       aria-live="polite" aria-busy="true" title="Loading visitor statistics">
+      <span>Total visitors <strong data-visitors-total>&mdash;</strong></span>
+      <span class="site-footer__separator" aria-hidden="true">&middot;</span>
+      <span>Today <strong data-visitors-today>&mdash;</strong></span>
+    </p>
     {% endif %}
     <p class="site-footer__meta">Last updated {{ site.time | date: '%B %Y' }}</p>
+    {% if site.histats_enabled and jekyll.environment == 'production' and page.analytics != false %}
+    <div class="site-footer__tracking-source" hidden aria-hidden="true">
+      {% include histats-counter.html %}
+    </div>
+    {% endif %}
   </footer>
 </div>
