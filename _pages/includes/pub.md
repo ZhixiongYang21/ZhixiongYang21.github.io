@@ -3,24 +3,7 @@
   <h1 id="publications-heading">Publications</h1>
   <p class="publication-note"><sup>&dagger;</sup> Equal contribution &nbsp;·&nbsp; <sup>*</sup> Corresponding author</p>
 
-  <h2 class="publication-category">Natural Image &amp; HSI Super-Resolution</h2>
-
-  <article class="publication-item">
-    <div class="publication-media">
-      <a href="/_pages/images/BKSR.png" aria-label="View full-size BKSR figure">
-        <img src="/_pages/images/BKSR.png" alt="BKSR method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</h3>
-      <p class="publication-authors"><strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu</p>
-      <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence <strong class="publication-venue-code">(TPAMI)</strong>, 2026</p>
-      <div class="publication-links">
-        <a href="https://ieeexplore.ieee.org/document/11475666">Paper</a>
-        <a href="https://github.com/XYLGroup/BKSR">Code</a>
-      </div>
-    </div>
-  </article>
+  <h2 class="publication-category">Optical Image Super-Resolution</h2>
 
   <article class="publication-item">
     <div class="publication-media">
@@ -58,23 +41,6 @@
 
   <article class="publication-item">
     <div class="publication-media">
-      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
-        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
-      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
-      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
-        <a href="https://github.com/5chen/C2SSM">Code</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-media">
       <a href="/_pages/images/DDSR.png" aria-label="View full-size DDSR figure">
         <img src="/_pages/images/DDSR.png" alt="DDSR method overview" loading="lazy">
       </a>
@@ -90,7 +56,48 @@
     </div>
   </article>
 
-  <article class="publication-item publication-item--text">
+  <h2 class="publication-category">Hyperspectral Image (HSI) Super-Resolution</h2>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/BKSR.png" aria-label="View full-size BKSR figure">
+        <img src="/_pages/images/BKSR.png" alt="BKSR method overview" loading="lazy">
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution</h3>
+      <p class="publication-authors"><strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Li Liu, Yaowen Fu, Yongxiang Liu</p>
+      <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence <strong class="publication-venue-code">(TPAMI)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://ieeexplore.ieee.org/document/11475666">Paper</a>
+        <a href="https://github.com/XYLGroup/BKSR">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/SSCD.png" aria-label="View full-size S2CD-Net figure">
+        <img src="/_pages/images/SSCD.png" alt="S2CD-Net spectral selection, spatial merging, and feature refinement modules" loading="lazy">
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Spectrally-Spatially Coupled Dynamic Reduction for Efficient Hyperspectral Image Super-Resolution</h3>
+      <p class="publication-authors">Lingyu Zheng<sup>&dagger;</sup>, Jingyuan Xia<sup>&dagger;</sup>, <strong>Zhixiong Yang<sup>&dagger;</sup></strong>, Chen Wu, Shengxi Li, Xin Deng, Mai Xu</p>
+      <p class="publication-venue">IEEE Transactions on Geoscience and Remote Sensing <strong class="publication-venue-code">(IEEE TGRS)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://doi.org/10.1109/TGRS.2026.3688486">Paper</a>
+        <a href="https://github.com/XYLGroup/S2CD-Net">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/SAKE.png" aria-label="View full-size SAKE figure">
+        <img src="/_pages/images/SAKE.png" alt="SAKE adaptive kernel estimation and hyperspectral reconstruction framework" loading="lazy">
+      </a>
+    </div>
     <div class="publication-body">
       <h3 class="publication-title">SAKE: Unsupervised HSI Super-Resolution via Adaptive Kernel Estimation and Reconstruction</h3>
       <p class="publication-authors">Lingyu Zheng<sup>&dagger;</sup>, <strong>Zhixiong Yang<sup>&dagger;</sup></strong>, Tong Qiu, Jingyuan Xia<sup>*</sup></p>
@@ -103,6 +110,23 @@
   </article>
 
   <h2 class="publication-category">Other Low-Level Vision Tasks</h2>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
+        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy">
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
+      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
+      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
+        <a href="https://github.com/5chen/C2SSM">Code</a>
+      </div>
+    </div>
+  </article>
 
   <article class="publication-item">
     <div class="publication-media">

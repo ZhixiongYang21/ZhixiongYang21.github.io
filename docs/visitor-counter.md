@@ -9,7 +9,7 @@
 
 1. 将本次工程修改提交并推送到 GitHub 的 `main` 分支。
 2. 等 GitHub Pages 部署成功，打开 `https://zhixiongyang21.github.io/` 并滚动到底部。
-3. 如未显示，先检查网络和广告拦截扩展是否阻止了 Histats；也可以在 Histats 控制面板检查是否收到访问。
+3. 初次加载时会短暂显示 `—`。如果部署后一直不更新，先强制刷新（Windows：Ctrl+F5），排除旧脚本/样式缓存；再检查网络和广告拦截扩展是否阻止了 Histats。
 
 代码已接入不等于已经发布；本次不会自动提交或推送仓库。
 
@@ -27,6 +27,7 @@
 - 页脚样式：`_sass/_site-footer.scss`；数字读取：`assets/js/site-refresh.js` 的 `initVisitorStats()`。
 - 页面只读取本次 Histats 加载所得的 `Histats.s_asc2[3]`（今日访客）和 `[4]`（累计访客），并核对站点 ID；不会额外调用统计接口，也不会重复计数。最多等待 30 秒。
 - 这是对当前 Histats 脚本运行时数据的适配，不是官方承诺稳定的 JSON API。如果服务以后更改字段，需要更新适配；格式不符时保持 `—`。
+- 主样式和 `site-refresh.js` 的地址带有构建时间版本号，防止发布新 HTML 后浏览器仍使用旧的脚本或样式。
 - 总开关：`_config.yml` 中的 `histats_enabled`；设为 `false` 可关闭页脚统计。
 - 仅生产构建（`JEKYLL_ENV=production`）启用；普通本地预览不加载 Histats，避免测试访问进入正式统计。页面设置 `analytics: false` 时也不加载。
 - 原 Google Analytics 埋点保持不变；旧 GA4 页脚取数逻辑已移除，导出工作流只保留手动运行入口。
