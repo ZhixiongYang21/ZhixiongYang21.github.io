@@ -1,9 +1,9 @@
-name: Update Traffic Stats
+name: Legacy GA4 Traffic Stats (manual only)
 
+# The public footer now uses Histats. Keep this optional exporter for manual use,
+# but do not schedule unused hourly jobs or require Google credentials.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 * * * *"
 
 permissions:
   contents: write

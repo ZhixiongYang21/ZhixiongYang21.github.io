@@ -94,44 +94,9 @@
     window.addEventListener("load", requestUpdate, false);
   }
 
-  function initTrafficStats() {
-    var container = document.querySelector("[data-traffic-stats]");
-
-    if (!container || !window.fetch) return;
-
-    var source = container.getAttribute("data-source");
-    var totalElement = container.querySelector("[data-traffic-total]");
-    var todayElement = container.querySelector("[data-traffic-today]");
-
-    if (!source || !totalElement || !todayElement) return;
-
-    var separator = source.indexOf("?") === -1 ? "?" : "&";
-    var cacheWindow = Math.floor(Date.now() / (15 * 60 * 1000));
-
-    window.fetch(source + separator + "v=" + cacheWindow, { cache: "no-store" })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Traffic statistics are unavailable");
-        return response.json();
-      })
-      .then(function (data) {
-        var total = Number(data.total_views);
-        var today = Number(data.today_views);
-
-        if (!isFinite(total) || !isFinite(today) || total < 0 || today < 0) return;
-
-        totalElement.textContent = Math.floor(total).toLocaleString("en-US");
-        todayElement.textContent = Math.floor(today).toLocaleString("en-US");
-        container.hidden = false;
-      })
-      .catch(function () {
-        // Keep the optional counter hidden when the data source is unavailable.
-      });
-  }
-
   function init() {
     markExternalLinks();
     initSectionNavigation();
-    initTrafficStats();
   }
 
   if (document.readyState === "loading") {
