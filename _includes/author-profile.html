@@ -12,6 +12,11 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if site.description %}<p class="author__position">{{ site.description }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.googlescholar %}
+    <a class="author__citation-mobile" href="{{ author.googlescholar }}" data-scholar-summary data-scholar-id="{{ site.google_scholar_id }}" data-updated="{{ site.google_scholar_updated }}" title="Google Scholar citations as of {{ site.google_scholar_updated }}">
+      <strong data-scholar-citations>{{ site.google_scholar_citations }}</strong> citations
+    </a>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -102,7 +107,7 @@
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        <li class="author__scholar"><a href="{{ author.googlescholar }}" data-scholar-summary data-scholar-id="{{ site.google_scholar_id }}" data-updated="{{ site.google_scholar_updated }}" title="Citations as of {{ site.google_scholar_updated }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar<small class="author__citation-detail"><strong data-scholar-citations>{{ site.google_scholar_citations }}</strong> citations</small></span></a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>

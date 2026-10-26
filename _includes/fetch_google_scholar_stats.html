@@ -1,19 +1,47 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            // var totalCitation = data['citedby']
-            // document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
+(function () {
+  "use strict";
+  var summaries = document.querySelectorAll("[data-scholar-summary]");
+  if (!summaries.length) return;
+  var summary = summaries[0];
+  var scholarId = summary.getAttribute("data-scholar-id");
+  var currentDate = Date.parse(summary.getAttribute("data-updated"));
+  var cacheKey = "scholar-citations-" + scholarId;
+
+  function applyStats(data) {
+    if (!data || data.scholar_id !== scholarId ||
+        typeof data.citedby !== "number" || !Number.isSafeInteger(data.citedby) || data.citedby < 0 ||
+        typeof data.updated !== "string") return;
+    var updated = Date.parse(data.updated);
+    if (!Number.isFinite(updated) || updated < currentDate || updated > Date.now() + 86400000) return;
+    currentDate = updated;
+    Array.prototype.forEach.call(summaries, function (element) {
+      if (element.getAttribute("data-scholar-id") !== scholarId) return;
+      var count = element.querySelector("[data-scholar-citations]");
+      if (count) count.textContent = data.citedby.toLocaleString("en-US");
+      element.setAttribute("data-updated", data.updated);
+      element.title = "Citations as of " + data.updated.slice(0, 10);
+    });
+    try { localStorage.setItem(cacheKey, JSON.stringify(data)); } catch (error) { /* Storage is optional. */ }
+  }
+
+  // Keep a verified static value if Scholar, GitHub or storage is unavailable.
+  try { applyStats(JSON.parse(localStorage.getItem(cacheKey))); } catch (error) { /* Keep the fallback. */ }
+
+  {% if site.google_scholar_stats_use_cdn %}
+  var url = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json";
+  {% else %}
+  var url = "https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json";
+  {% endif %}
+  var controller = new AbortController();
+  var timeout = setTimeout(function () { controller.abort(); }, 8000);
+  fetch(url, { signal: controller.signal })
+    .then(function (response) {
+      if (!response.ok) throw new Error("Citation data unavailable");
+      return response.json();
     })
+    .then(applyStats)
+    .catch(function () { /* Retain the most recent valid count. */ })
+    .finally(function () { clearTimeout(timeout); });
+})();
 </script>
