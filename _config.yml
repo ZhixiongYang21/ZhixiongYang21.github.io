@@ -8,8 +8,11 @@
 # Site Settings
 title                    : "Zhixiong Yang (杨志雄)"
 description              : "Ph.D. Student at NUDT"
-repository               : "ZhixiongYang21.github.io"
+repository               : "ZhixiongYang21/ZhixiongYang21.github.io"
 google_scholar_stats_use_cdn : true
+google_scholar_id        : "HsuHMucAAAAJ"
+google_scholar_citations : 582
+google_scholar_updated   : "2026-10-26"
 
 # google analytics
 google_analytics_id      : G-SWFCX99KQZ
