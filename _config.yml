@@ -9,8 +9,9 @@
 title                    : "Zhixiong Yang (杨志雄)"
 description              : "Ph.D. Student at NUDT"
 repository               : "ZhixiongYang21/ZhixiongYang21.github.io"
-google_scholar_stats_use_cdn : true
 google_scholar_id        : "HsuHMucAAAAJ"
+# Manually update these two fields; all citation displays use this single value.
+# Keep the date in quotes. No crawler, remote JSON, or browser cache is used.
 google_scholar_citations : 582
 google_scholar_updated   : "2026-10-26"
 
