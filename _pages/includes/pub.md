@@ -1,6 +1,12 @@
 <span class="anchor" id="-publications"></span>
 <section class="publications-block" aria-labelledby="publications-heading">
-  <h1 id="publications-heading">Publications</h1>
+  <div class="publications-heading">
+    <h1 id="publications-heading">Publications</h1>
+    <a class="scholar-summary" href="{{ site.author.googlescholar }}" data-scholar-summary data-scholar-id="{{ site.google_scholar_id }}" data-updated="{{ site.google_scholar_updated }}" title="Citations as of {{ site.google_scholar_updated }}">
+      <span class="scholar-summary__metric"><strong data-scholar-citations>{{ site.google_scholar_citations }}</strong> <span>citations</span></span>
+      <span class="scholar-summary__source">Google Scholar <span aria-hidden="true">↗</span></span>
+    </a>
+  </div>
   <p class="publication-note"><sup>&dagger;</sup> Equal contribution &nbsp;·&nbsp; <sup>*</sup> Corresponding author</p>
 
   <h2 class="publication-category">Optical Image Super-Resolution</h2>
@@ -8,7 +14,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/MLMC.png" aria-label="View full-size MLMC figure">
-        <img src="/_pages/images/MLMC.png" alt="MLMC method overview" loading="lazy">
+        <img src="/_pages/images/MLMC.png" alt="MLMC method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -25,7 +32,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/DKP.png" aria-label="View full-size DKP figure">
-        <img src="/_pages/images/DKP.png" alt="DKP method overview" loading="lazy">
+        <img src="/_pages/images/DKP.png" alt="DKP method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -42,7 +50,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/DDSR.png" aria-label="View full-size DDSR figure">
-        <img src="/_pages/images/DDSR.png" alt="DDSR method overview" loading="lazy">
+        <img src="/_pages/images/DDSR.png" alt="DDSR method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -56,12 +65,31 @@
     </div>
   </article>
 
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
+        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
+      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
+      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
+        <a href="https://github.com/5chen/C2SSM">Code</a>
+      </div>
+    </div>
+  </article>
+
   <h2 class="publication-category">Hyperspectral Image (HSI) Super-Resolution</h2>
 
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/BKSR.png" aria-label="View full-size BKSR figure">
-        <img src="/_pages/images/BKSR.png" alt="BKSR method overview" loading="lazy">
+        <img src="/_pages/images/BKSR.png" alt="BKSR method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -78,7 +106,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/SSCD.png" aria-label="View full-size S2CD-Net figure">
-        <img src="/_pages/images/SSCD.png" alt="S2CD-Net spectral selection, spatial merging, and feature refinement modules" loading="lazy">
+        <img src="/_pages/images/SSCD.png" alt="S2CD-Net spectral selection, spatial merging, and feature refinement modules" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -95,7 +124,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/SAKE.png" aria-label="View full-size SAKE figure">
-        <img src="/_pages/images/SAKE.png" alt="SAKE adaptive kernel estimation and hyperspectral reconstruction framework" loading="lazy">
+        <img src="/_pages/images/SAKE.png" alt="SAKE adaptive kernel estimation and hyperspectral reconstruction framework" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -109,12 +139,31 @@
     </div>
   </article>
 
-  <h2 class="publication-category">Other Low-Level Vision Tasks</h2>
+  <h2 class="publication-category">Illumination Restoration</h2>
+
+  <article class="publication-item">
+    <div class="publication-media">
+      <a href="/_pages/images/2026-EM-LVNet.png" aria-label="View full-size EM-LVNet figure">
+        <img src="/_pages/images/2026-EM-LVNet.png" alt="EM-LVNet method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
+      </a>
+    </div>
+    <div class="publication-body">
+      <h3 class="publication-title">Statistical Degradation State Modeling for Mask-free Shadow Removal</h3>
+      <p class="publication-authors"><strong>Zhixiong Yang</strong>, Jingyuan Xia<sup>*</sup>, Yuxin Zhao, Shengxi Li, Shuanghui Zhang, Zhen Liu, Yaowen Fu, Weidong Jiang, Yongxiang Liu</p>
+      <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence <strong class="publication-venue-code">(TPAMI)</strong>, 2026</p>
+      <div class="publication-links">
+        <a href="https://github.com/XYLGroup/EM-LVNet">Code</a>
+      </div>
+    </div>
+  </article>
+
 
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/2025-NeurIPS-LASQ.png" aria-label="View full-size LASQ figure">
-        <img src="/_pages/images/2025-NeurIPS-LASQ.png" alt="LASQ method overview" loading="lazy">
+        <img src="/_pages/images/2025-NeurIPS-LASQ.png" alt="LASQ method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -128,29 +177,13 @@
     </div>
   </article>
 
-  <article class="publication-item">
-    <div class="publication-media">
-      <a href="/_pages/images/2026-CVPR-C2SSM.png" aria-label="View full-size C2SSM figure">
-        <img src="/_pages/images/2026-CVPR-C2SSM.png" alt="C2SSM method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-High-Definition Image Restoration</h3>
-      <p class="publication-authors">Chen Wu, Ling Wang, Zhuoran Zheng, Yuning Cui, <strong>Zhixiong Yang</strong>, Xiangyu Chen, Yue Zhang, Weidong Jiang, Jingyuan Xia<sup>*</sup></p>
-      <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong class="publication-venue-code">(CVPR)</strong>, 2026</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/pdf/2602.21917v1">Paper</a>
-        <a href="https://github.com/5chen/C2SSM">Code</a>
-      </div>
-    </div>
-  </article>
-
   <h2 class="publication-category">Radar Imaging</h2>
 
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/LAOF.png" aria-label="View full-size LAOF figure">
-        <img src="/_pages/images/LAOF.png" alt="LAOF method overview" loading="lazy">
+        <img src="/_pages/images/LAOF.png" alt="LAOF method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -167,7 +200,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/Radar1.png" aria-label="View full-size ISAR imaging figure">
-        <img src="/_pages/images/Radar1.png" alt="Sparse-aperture ISAR imaging result" loading="lazy">
+        <img src="/_pages/images/Radar1.png" alt="Sparse-aperture ISAR imaging result" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -186,7 +220,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/2026-AAAI-PATK.png" aria-label="View full-size PATK figure">
-        <img src="/_pages/images/2026-AAAI-PATK.png" alt="PATK method overview" loading="lazy">
+        <img src="/_pages/images/2026-AAAI-PATK.png" alt="PATK method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -203,7 +238,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/LAGD.png" aria-label="View full-size LAGD figure">
-        <img src="/_pages/images/LAGD.png" alt="LAGD method overview" loading="lazy">
+        <img src="/_pages/images/LAGD.png" alt="LAGD method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -222,7 +258,8 @@
   <article class="publication-item">
     <div class="publication-media">
       <a href="/_pages/images/2026-PAMI-DS3HSR.png" aria-label="View full-size DS3HSR figure">
-        <img src="/_pages/images/2026-PAMI-DS3HSR.png" alt="DS3HSR method overview" loading="lazy">
+        <img src="/_pages/images/2026-PAMI-DS3HSR.png" alt="DS3HSR method overview" loading="lazy" decoding="async">
+        <span class="publication-view" aria-hidden="true">View</span>
       </a>
     </div>
     <div class="publication-body">
@@ -232,29 +269,4 @@
     </div>
   </article>
 
-  <article class="publication-item">
-    <div class="publication-media">
-      <a href="/_pages/images/EMLVNet.png" aria-label="View full-size EMLVNet figure">
-        <img src="/_pages/images/EMLVNet.png" alt="EMLVNet method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Statistical Degradation State Modeling for Mask-Free Shadow Removal</h3>
-      <p class="publication-venue"><strong class="publication-venue-code">Under Review</strong></p>
-      <p class="publication-status">Paper and code will be released after acceptance.</p>
-    </div>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-media">
-      <a href="/_pages/images/EMSD.png" aria-label="View full-size EMSD figure">
-        <img src="/_pages/images/EMSD.png" alt="EMSD method overview" loading="lazy">
-      </a>
-    </div>
-    <div class="publication-body">
-      <h3 class="publication-title">Error-Robust Unsupervised Shadow Removal via Luminance Probability Learning under Mask Misalignment</h3>
-      <p class="publication-venue"><strong class="publication-venue-code">Under Review</strong></p>
-      <p class="publication-status">Paper and code will be released after acceptance.</p>
-    </div>
-  </article>
 </section>
