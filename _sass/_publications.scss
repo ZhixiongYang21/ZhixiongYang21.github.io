@@ -27,44 +27,6 @@
   }
 }
 
-.page__content a.scholar-summary {
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0.35rem 0.65rem;
-  border: 1px solid rgba($info-color, 0.15);
-  border-radius: 6px;
-  background: rgba($info-color, 0.025);
-  color: $info-color;
-  text-decoration: none;
-  transition: border-color 0.2s ease, background-color 0.2s ease;
-
-  &:hover, &:focus-visible {
-    border-color: rgba($info-color, 0.4);
-    background: rgba($info-color, 0.06);
-  }
-}
-
-.scholar-summary__metric {
-  font-size: 0.75rem;
-  line-height: 1.25;
-  strong {
-    margin-right: 0.15rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-    letter-spacing: -0.03em;
-  }
-}
-
-.scholar-summary__source {
-  margin-top: 0.15rem;
-  color: $gray;
-  font-size: 0.62rem;
-  letter-spacing: 0.015em;
-}
-
 .publication-category {
   margin: 2.5rem 0 0;
   padding-bottom: 0.55rem;
@@ -312,7 +274,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .publication-media img, .publication-view, .publication-title,
-  .page__content a.scholar-summary, .publication-lightbox *, .mfp-wrap *, .mfp-bg {
+  .publication-lightbox *, .mfp-wrap *, .mfp-bg {
     transition: none !important;
     animation: none !important;
   }

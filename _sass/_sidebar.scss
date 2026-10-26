@@ -157,37 +157,6 @@
   }
 }
 
-/* Citation totals belong to the Scholar contact, using the sidebar's type scale. */
-.author__citation-mobile,
-.author__citation-detail {
-  color: $gray;
-  font-size: 0.75rem;
-  line-height: 1.45;
-
-  strong {
-    color: $info-color;
-    font-size: inherit;
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-  }
-}
-
-.author__citation-mobile {
-  display: inline-block;
-  margin-top: 0.25rem;
-  text-decoration: none;
-
-  &:hover { color: $info-color; text-decoration: underline; }
-  &:focus-visible { outline: 2px solid $info-color; outline-offset: 3px; }
-
-  @include breakpoint($large) { display: none; }
-}
-
-.author__citation-detail {
-  display: block;
-  margin-top: 0.08rem;
-}
-
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
@@ -327,7 +296,52 @@
   }
 }
 
-.author__urls .author__scholar {
-  a { align-items: flex-start; }
-  i { margin-top: 0.2rem; }
+/* A single Scholar contact closes the profile on both desktop and mobile. */
+.author__scholar {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+  padding-left: 85px;
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.5;
+  text-decoration: none;
+
+  > i {
+    flex: 0 0 1.15rem;
+    width: 1.15rem;
+    margin-top: 0.2rem;
+    color: mix(#fff, $gray, 15%);
+    text-align: center;
+  }
+
+  &:hover { color: $info-color; text-decoration: none; }
+  &:focus-visible { outline: 2px solid $info-color; outline-offset: 3px; }
+
+  @include breakpoint($large) {
+    margin-top: 0.35rem;
+    padding-left: 0;
+  }
+}
+
+.author__citation-detail {
+  display: inline-block;
+  margin-left: 0.6rem;
+  color: $gray;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  white-space: nowrap;
+
+  strong {
+    color: $info-color;
+    font-size: inherit;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @include breakpoint($large) {
+    display: block;
+    margin: 0.08rem 0 0;
+  }
 }
