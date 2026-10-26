@@ -8,10 +8,6 @@
       <span class="news-text">EM-LVNet was accepted by <strong>Trans.PAMI!</strong></span>
     </li>
     <li class="news-item">
-      <time class="news-date" datetime="2026-09">2026.09</time>
-      <span class="news-text">EMSR was accepted by <strong>Trans.MM!</strong></span>
-    </li>
-    <li class="news-item">
       <time class="news-date" datetime="2026-07">2026.07</time>
       <span class="news-text">TAES paper (LAOF) was selected as <strong>Highly Cited Paper!</strong></span>
     </li>

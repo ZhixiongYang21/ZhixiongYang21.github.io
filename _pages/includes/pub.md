@@ -2,10 +2,6 @@
 <section class="publications-block" aria-labelledby="publications-heading">
   <div class="publications-heading">
     <h1 id="publications-heading">Publications</h1>
-    <a class="scholar-summary" href="{{ site.author.googlescholar }}" data-scholar-summary data-scholar-id="{{ site.google_scholar_id }}" data-updated="{{ site.google_scholar_updated }}" title="Citations as of {{ site.google_scholar_updated }}">
-      <span class="scholar-summary__metric"><strong data-scholar-citations>{{ site.google_scholar_citations }}</strong> <span>citations</span></span>
-      <span class="scholar-summary__source">Google Scholar <span aria-hidden="true">↗</span></span>
-    </a>
   </div>
   <p class="publication-note"><sup>&dagger;</sup> Equal contribution &nbsp;·&nbsp; <sup>*</sup> Corresponding author</p>
 
