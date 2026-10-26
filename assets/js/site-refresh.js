@@ -1,6 +1,58 @@
 (function () {
   "use strict";
 
+  function initPublicationLightbox() {
+    if (typeof HTMLDialogElement === "undefined") return;
+    var links = document.querySelectorAll(".publication-media a");
+    if (!links.length) return;
+    var dialog = document.createElement("dialog");
+    dialog.className = "publication-lightbox";
+    dialog.setAttribute("aria-label", "Publication figure");
+    dialog.innerHTML = '<button type="button" class="publication-lightbox__close" aria-label="Close figure">&times;</button><img class="publication-lightbox__image" alt="">';
+    document.body.appendChild(dialog);
+    var image = dialog.querySelector("img");
+    var opener;
+    var previousOverflow;
+
+    function openFigure(link) {
+      if (dialog.open) return;
+      var thumbnail = link.querySelector("img");
+      if (!thumbnail) return;
+      opener = link;
+      image.src = link.href;
+      image.alt = thumbnail.alt || "Enlarged publication figure";
+      previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      dialog.showModal();
+    }
+
+    // Capture image clicks before the theme's gallery handler is invoked.
+    document.addEventListener("click", function (event) {
+      var link = event.target.closest(".publication-media a");
+      if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      openFigure(link);
+    }, true);
+
+    Array.prototype.forEach.call(links, function (link) {
+      link.setAttribute("aria-haspopup", "dialog");
+      link.addEventListener("keydown", function (event) {
+        if (event.key === " ") {
+          event.preventDefault();
+          openFigure(link);
+        }
+      });
+    });
+
+    // Like the group homepage, clicking the image or backdrop closes the view.
+    dialog.addEventListener("click", function () { dialog.close(); });
+    dialog.addEventListener("close", function () {
+      document.body.style.overflow = previousOverflow;
+      if (opener) opener.focus({ preventScroll: true });
+    });
+  }
+
   function markExternalLinks() {
     var links = document.querySelectorAll("a[href]");
 
@@ -150,6 +202,7 @@
   }
 
   function init() {
+    initPublicationLightbox();
     markExternalLinks();
     initSectionNavigation();
     initVisitorStats();
