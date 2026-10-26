@@ -70,13 +70,13 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
-  @include breakpoint($large) {
-    display: block;
-  }
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
+  @include breakpoint($large) {
+    display: block;
+  }
 }
 
 .author__avatar {
@@ -155,6 +155,37 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+/* Citation totals belong to the Scholar contact, using the sidebar's type scale. */
+.author__citation-mobile,
+.author__citation-detail {
+  color: $gray;
+  font-size: 0.75rem;
+  line-height: 1.45;
+
+  strong {
+    color: $info-color;
+    font-size: inherit;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.author__citation-mobile {
+  display: inline-block;
+  margin-top: 0.25rem;
+  text-decoration: none;
+
+  &:hover { color: $info-color; text-decoration: underline; }
+  &:focus-visible { outline: 2px solid $info-color; outline-offset: 3px; }
+
+  @include breakpoint($large) { display: none; }
+}
+
+.author__citation-detail {
+  display: block;
+  margin-top: 0.08rem;
 }
 
 .author__urls-wrapper {
@@ -294,4 +325,9 @@
   @include breakpoint($large) {
     display: none;
   }
+}
+
+.author__urls .author__scholar {
+  a { align-items: flex-start; }
+  i { margin-top: 0.2rem; }
 }
